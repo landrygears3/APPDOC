@@ -1,0 +1,4 @@
+{Project= 3 dias
+SCRUM=3}
+{BD= 7 dias
+Navegabilidad -> diccionario de datos=14dias}

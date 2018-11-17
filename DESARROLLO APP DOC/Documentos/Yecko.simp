@@ -1,0 +1,1592 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.80" multi-file="no" uid="simp424432d4d1d14613ab30c7695fc882f8">
+  <meta>
+    <name>Yecko</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="ui-titled-panel" type="UITitledPanel" />
+        <value>13</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-paragraph" type="UIParagraph" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-grid" type="UIGrid" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-slider" type="UISlider" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-field-list" type="UIFieldList" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-panel" type="UIPanel" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-list-box" type="UIListBox" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-tree" type="UITree" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-scroll-bar" type="UIScrollBar" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-breadcrumbs" type="UIBreadcrumbs" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-group-box" type="UIGroupBox" />
+        <value>18</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-button" type="UIButton" />
+        <value>19</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-menu" type="UIMenu" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-tab-control" type="UITabControl" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-alert" type="UIAlert" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-label" type="UILabel" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="LineItem" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-area" type="UIArea" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-text-box" type="UITextBox" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-numeric-box" type="UINumericBox" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-check-box" type="UICheckBox" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="ui-titled-panel" type="UITitledPanel" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-paragraph" type="UIParagraph" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-grid" type="UIGrid" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-slider" type="UISlider" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-field-list" type="UIFieldList" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-panel" type="UIPanel" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-list-box" type="UIListBox" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-tree" type="UITree" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-scroll-bar" type="UIScrollBar" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-breadcrumbs" type="UIBreadcrumbs" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-group-box" type="UIGroupBox" />
+        <value>19</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-button" type="UIButton" />
+        <value>20</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-menu" type="UIMenu" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-tab-control" type="UITabControl" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="shape" type="AbstractShapeItem" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>1196</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-alert" type="UIAlert" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-label" type="UILabel" />
+        <value>15</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-area" type="UIArea" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-text-box" type="UITextBox" />
+        <value>15</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-numeric-box" type="UINumericBox" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-check-box" type="UICheckBox" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.WebPageDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-3c7a93dfbf4e47639fe6901ae6fe93ed" name="" task-id-sequence="0">
+    <working-schedule uid="ws-dea3c0fa4f264f28ac158f52e71e2eec" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="Pc2d09132a7a64c25bd59b850763b22e2">
+        <first-name>Emmanuel Ortega</first-name>
+        <last-name>Landry</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-70183c373d9b4fe3a882f9ec899fca04" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-e940d371a1014eacb9551628b1bf4647" />
+  <types default="Visual Basic .NET">
+    <type-sets>
+      <type-set file="VbNetTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p180280bacbea4d0da0d06cebacb28bcb_324801458" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>09/26/2018 13:15:24</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="web-page" id="p6b8f8bd304624fa9ae2fca4d4a67a584_461297269" name="WebPageDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="562,-35" zoom="0.3757143">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/26/2018 13:15:24</creation-date>
+          <change-date>10/02/2018 15:56:11</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di17cdda34caec432daf307ff1ebc4897f1794" cid="TP002" type="ui-titled-panel" name="Perfil" style-class="" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 13:40:04">
+            <style class="default" />
+          </item>
+          <item id="5929a40422f046b5b2f82045553c64a8" cid="GRD002" type="ui-grid" name="Grid2" style-class="" owner="257ff1f816524f3c8ea3b3c3b1f9dfb6" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 13:29:54">
+            <style class="default" />
+            <grid />
+          </item>
+          <item id="d4a1a912d5bf4bae86733b6e9711b79a" cid="SLD001" type="ui-slider" name="Slider1" style-class="" owner="257ff1f816524f3c8ea3b3c3b1f9dfb6" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 13:33:00">
+            <style class="default" />
+          </item>
+          <item id="04685774f94d491da71daa92c49e8645" cid="SCB001" type="ui-scroll-bar" name="ScrollBar1" style-class="" owner="257ff1f816524f3c8ea3b3c3b1f9dfb6" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 13:37:57">
+            <style class="default" />
+          </item>
+          <item id="db150142940141e999acdb5f942d1a69" cid="TP010" type="ui-titled-panel" name="Log" style-class="" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:26:46">
+            <style class="default" />
+          </item>
+          <item id="di9d3d5579070b43e3a853bd55e83909c05161" cid="SCB001" type="ui-scroll-bar" name="ScrollBar1" style-class="" owner="32e6e76211cd46a0852d1cb2cd4b9c09" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 13:37:57">
+            <style class="default" />
+          </item>
+          <item id="52e6977f1dd74a64ab7fe0ef6fd23b0d" cid="BTN001" type="ui-button" name="Oferta 1" style-class="" owner="32e6e76211cd46a0852d1cb2cd4b9c09" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 13:43:50">
+            <style class="default" />
+          </item>
+          <item id="6936be95b958451096aab62da5b396a4" cid="TXT001" type="ui-text-box" name="Usuario" style-class="" owner="db150142940141e999acdb5f942d1a69" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:27:34">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="a25a6c18130e476394041b28a00eeb03" cid="ELEM008" type="ui-area" name="Area2" style-class="" owner="db150142940141e999acdb5f942d1a69" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:37:04">
+            <style class="default" />
+          </item>
+          <item id="di539d424b50d04990a182564e592562459880" cid="SCB001" type="ui-scroll-bar" name="ScrollBar1" style-class="" owner="di073c0f5c46424ecd9ebbb4e8c058ae8b9880" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 13:37:57">
+            <style class="default" />
+          </item>
+          <item id="f51de387fdcf4808adb20850cf9e0631" cid="BTN003" type="ui-button" name="Entrar" style-class="" owner="db150142940141e999acdb5f942d1a69" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:27:03">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="di2ab18aa245a648ce856bff3f1e8a72a89880" cid="BTN001" type="ui-button" name="Medicamento 1" style-class="" owner="di073c0f5c46424ecd9ebbb4e8c058ae8b9880" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 13:43:50">
+            <style class="default" />
+          </item>
+          <item id="728dcf4ac00046e2a5f22400e099ba7c" cid="BTN002" type="ui-button" name="DD/MM/YYYY      PESO" style-class="" owner="2b422ad395254a9f975ba156cc495d25" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:14:23">
+            <style class="default" />
+          </item>
+          <item id="1b2c35d98a794d5599286b1f871fabbd" cid="ELEM003" type="ui-panel" name="Info" style-class="" owner="2b422ad395254a9f975ba156cc495d25" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:13:32">
+            <style class="default" />
+          </item>
+          <item id="be07b7c39a714369b4ff86ea1ff4d5ea" cid="LST002" type="ui-list-box" name="Fecha / Peso / progreso" style-class="" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:22:06">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;24;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;22;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <list-box>
+              <list-items />
+            </list-box>
+          </item>
+          <item id="293e590d4ff54900a5ced5f6512b5519" cid="BTN004" type="ui-button" name="DD/MM/YYYY      PESO" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:33:27">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="0b6516639bb64b6b9b696026ea6f9762" cid="TBC001" type="ui-tab-control" name="TabControl1" style-class="" owner="di17cdda34caec432daf307ff1ebc4897f1794" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="09/26/2018 14:02:21">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <tab-control>
+              <tabs>
+                <tab id="uit-c3526f6b-e1c8-49c3-8b33-9f76f149dafe" active="true">Perfil</tab>
+                <tab id="uit-31f3c06f-dcc9-4e01-9616-54d0b5aeca01">Mi dieta</tab>
+                <tab id="uit-12402cbb-718f-465e-854b-c3df526e05ac">Mis citas</tab>
+                <tab id="uit-c12a50a6-ee44-412b-b9a0-ab22e8b18c0b">Mis med</tab>
+              </tabs>
+            </tab-control>
+          </item>
+          <item id="9c19f95614044227a880c168d05107af" cid="ELEM007" type="ui-area" name="Area1" style-class="" owner="2b422ad395254a9f975ba156cc495d25" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:25:10">
+            <style class="default" />
+          </item>
+          <item id="difc18634520e146a99b2bfa6bdda4ccb37534" cid="TXT001" type="ui-text-box" name="Contraseña" style-class="" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:27:34">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="a2311241bddd488498feaf626514b671" cid="ELEM004" type="ui-panel" name="Panel3" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:31:25">
+            <style class="default" />
+          </item>
+          <item id="bd510f418c134b34bab5b1938b2f31fa" cid="GRP002" type="ui-group-box" name="Indicaciones" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:34:35">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;16;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;14;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="220b27f13e3e417ba0c7989632036f3e" cid="GRP004" type="ui-group-box" name="Recomendaciones" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:42:49">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;18;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="fc2edf29163b4c1bba659503dbc7da20" cid="GRP012" type="ui-group-box" name="Desayunos" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:46:09">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;18;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="b6c7a84493de42c4b6d296ccb4b38277" cid="GRP013" type="ui-group-box" name="Comidas" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:46:43">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="bf3c30b6dd304912809c5e25f0b7de1f" cid="GRP014" type="ui-group-box" name="Cenas" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:47:27">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;22;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="a43717bf14a34b678e8cd65ce8bba9be" cid="GRP015" type="ui-group-box" name="Colaciones" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:47:56">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;22;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="77efcb080c3d49349de11bb10f1e4066" cid="BTN012" type="ui-button" name="Nueva" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:49:11">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;24;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;22;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="5b71ec03efa744219eb9b7606d012848" cid="GRP005" type="ui-group-box" name="Mis citas" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:50:00">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="cc2924bfa4404082bb58f30160585397" cid="TP011" type="ui-titled-panel" name="Citas/nueva" style-class="" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:51:00">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;18;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEAFFD5" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="2980a07ff66742bca3f36b147fa7af9b" cid="GRD003" type="ui-grid" name="Grid3" style-class="" owner="cc2924bfa4404082bb58f30160585397" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:52:24">
+            <style class="default" />
+            <grid />
+          </item>
+          <item id="de96010d172c4059a0aa6a9520acd667" cid="LBL003" type="ui-label" name="Calendario" style-class="" owner="cc2924bfa4404082bb58f30160585397" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:52:50">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;18;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="f5f98df836ed4ace80dfad62f10ffb4f" cid="GRP006" type="ui-group-box" name="Citas disponibles" style-class="" owner="cc2924bfa4404082bb58f30160585397" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:53:34">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="cfcf090262774ab58b6ce3968244b015" cid="BTN013" type="ui-button" name="Agregar" style-class="" owner="cc2924bfa4404082bb58f30160585397" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:55:45">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;18;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="d209ff60ba7d46018a42594d44f8def5" cid="GRP008" type="ui-group-box" name="Medicamento 1" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:57:08">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="c5f72d632ac04f2b90821b4303b5595c" cid="TXT010" type="ui-text-box" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:18:44">
+            <style class="default" />
+          </item>
+          <item id="ca77e6faee6f4ed8846e0e989967c984" cid="GRP009" type="ui-group-box" name="Medicamento 2" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 16:59:08">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="58d5a7a5633d444a8983c89ee7ba9403" cid="LBL010" type="ui-label" name="% grasa corporal" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:19:59">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="bd7b1353b2404cf18ad7e39773c3a6b6" cid="TXT011" type="ui-text-box" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:25:20">
+            <style class="default" />
+          </item>
+          <item id="207a132671a94de88e7e809b90d16b0d" cid="GRP010" type="ui-group-box" name="Medicamento 3" style-class="" owner="0b6516639bb64b6b9b696026ea6f9762" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 17:00:26">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="4c95b252eead42a5a057cc0e1b5ad18c" cid="TP012" type="ui-titled-panel" name="Login desktop" style-class="" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 17:05:54">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;14;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;12;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="9e0ad529aa9449acb64d6f438fd018d9" cid="TXT005" type="ui-text-box" name="Contraseña" style-class="" owner="4c95b252eead42a5a057cc0e1b5ad18c" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 17:10:23">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="a7969c36dab0438085b7176dc51a27b3" cid="TXT004" type="ui-text-box" name="Usuario" style-class="" owner="4c95b252eead42a5a057cc0e1b5ad18c" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 17:09:28">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="b32a991411dd406ab55757aed9656d5e" cid="ELEM010" type="ui-area" name="Area4" style-class="" owner="4c95b252eead42a5a057cc0e1b5ad18c" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 17:08:10">
+            <style class="default" />
+          </item>
+          <item id="31951c613464495e88f389aa0ce86866" cid="BTN015" type="ui-button" name="Entrar" style-class="" owner="4c95b252eead42a5a057cc0e1b5ad18c" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 17:11:08">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;18;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="di90ef85b4568a4689810cd99d6a40a65e3843" cid="TP012" type="ui-titled-panel" name="Doc/Nuevo" style-class="" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 17:05:54">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="c0b8999c0b404ff79dc958b45d972224" cid="TXT007" type="ui-text-box" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:12:01">
+            <style class="default" />
+          </item>
+          <item id="840642b17ad44c79b3184bf47af2e9e9" cid="LBL006" type="ui-label" name="Edad:" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:11:05">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="73ecdb7c7580481481fc3ad7078f90dc" cid="TXT006" type="ui-text-box" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:10:41">
+            <style class="default" />
+          </item>
+          <item id="a7707d45eee642a29d1f2c85f17eb2b1" cid="LBL005" type="ui-label" name="Nombre" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:10:06">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="a09ffb7dc98b4317af6a7f54cef469d0" cid="LBL007" type="ui-label" name="Peso" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:12:47">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="4ce71118f6fd40b4a501a7929ed065d1" cid="TXT008" type="ui-text-box" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:15:26">
+            <style class="default" />
+          </item>
+          <item id="50008af451264a6db923ff914fd03d91" cid="LBL008" type="ui-label" name="Alergias" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:22:25">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="6fbb327266c643b28fe342b8cb244d42" cid="TXT009" type="ui-text-box" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:29:43">
+            <style class="default" />
+          </item>
+          <item id="a6fae15a77fb4920be8f6091bfe2121d" cid="LBL009" type="ui-label" name="Antecedentes" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 18:31:01">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="b3bc1d6a68bb4cf6900047040a9c96e4" cid="LBL011" type="ui-label" name="% grasa viceral" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:25:48">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="57407b84ed4d4b3a87200160b6780ded" cid="TXT012" type="ui-text-box" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:26:34">
+            <style class="default" />
+          </item>
+          <item id="b60ccf026e72498489f580d941c2d4e6" cid="LBL012" type="ui-label" name="% Masa muscular" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:27:12">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="b1b766816f8b492a8c7e90a2b95b99e1" cid="TXT013" type="ui-text-box" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:27:59">
+            <style class="default" />
+          </item>
+          <item id="2ae757fc571a4b108a20bf0b0894828f" cid="LBL013" type="ui-label" name="" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:34:30">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="a65b304ffc2a4a43b070ab36f47a1ad9" cid="GRP016" type="ui-group-box" name="Recomendaciones" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:35:49">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="a5900e5ab12f484ab7ddfb0d2e05a607" cid="ELEM011" type="ui-area" name="Area5" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:38:45">
+            <style class="default" />
+          </item>
+          <item id="2561b148844d41198d070de60327be8f" cid="LBL014" type="ui-label" name="Nuevo" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:38:56">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="a67df5b175c3453a943a7931315ef55a" cid="BTN016" type="ui-button" name="Dieta" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:39:55">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="6b476c74b40a40c2839e9ced4a21229e" cid="BTN017" type="ui-button" name="Aceptar" style-class="" owner="di90ef85b4568a4689810cd99d6a40a65e3843" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:41:16">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;18;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="5c52d719499d4553a7a615ec3adce558" cid="TP013" type="ui-titled-panel" name="Dieta" style-class="" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 21:59:24">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;16;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;14;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="d6e42e04de4c40d2961030a6bed40c91" cid="GRP017" type="ui-group-box" name="Personalizado" style-class="" owner="5c52d719499d4553a7a615ec3adce558" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 22:02:32">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="2963e929724945438061d297078910f3" cid="GRP018" type="ui-group-box" name="Menu 1" style-class="" owner="5c52d719499d4553a7a615ec3adce558" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 22:05:12">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;18;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="6e44c0b5dc294b3b9bcb41c2bab91c81" cid="BTN018" type="ui-button" name="+" style-class="" owner="2963e929724945438061d297078910f3" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 22:13:44">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;66;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;60;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="0967f2b4f0c840599d7f08fc2b45aa72" cid="BTN019" type="ui-button" name="+" style-class="" owner="d6e42e04de4c40d2961030a6bed40c91" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 22:14:59">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;66;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;66;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="aab921f546ca4cf7bd2faa82e6f03673" cid="TXT014" type="ui-text-box" name="" style-class="" owner="d6e42e04de4c40d2961030a6bed40c91" visibility="package" change-tracking-state="added" creator="Pc2d09132a7a64c25bd59b850763b22e2" creation-date="10/01/2018 22:15:28">
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer id="460a7f8cc12142e2a0d118ca5dc0278b" name="Default" visible="true" enabled="true" locked="false">
+          <item id="be07b7c39a714369b4ff86ea1ff4d5ea" iid="94d4ba0883a7448298298a77f7e5f68b" creation-date="10/01/2018 16:22:06" order-index="14" type="ui-list-box">
+            <layout ax="918" ay="1588.062" awidth="603" aheight="626.8755" x="918" y="1588.062" width="603" height="626.8755" />
+          </item>
+          <item id="db150142940141e999acdb5f942d1a69" iid="182cd8f1d8424d3091750b30344210f1" creation-date="10/01/2018 16:26:46" order-index="16" type="ui-titled-panel">
+            <layout ax="40.65771" ay="9.186218" awidth="684" aheight="1076" x="40.65771" y="9.186218" width="684" height="1076" />
+          </item>
+          <item id="f51de387fdcf4808adb20850cf9e0631" iid="cdcd3f68eeb0412fa02af1b5cc78bd01" container="db150142940141e999acdb5f942d1a69" container-iid="182cd8f1d8424d3091750b30344210f1" creation-date="10/01/2018 16:27:03" order-index="17" type="ui-button">
+            <layout ax="247.2863" ay="827.6069" awidth="272" aheight="86" x="247.2863" y="827.6069" width="272" height="86" />
+          </item>
+          <item id="6936be95b958451096aab62da5b396a4" iid="53b08cd893ab4387a8d154a458041a16" container="db150142940141e999acdb5f942d1a69" container-iid="182cd8f1d8424d3091750b30344210f1" creation-date="10/01/2018 16:27:34" order-index="18" type="ui-text-box">
+            <layout ax="124.6195" ay="420.1202" awidth="543" aheight="106" x="124.6195" y="420.1202" width="543" height="106" />
+          </item>
+          <item id="difc18634520e146a99b2bfa6bdda4ccb37534" iid="cc5646f5018b4ede8ed7611233c74fe1" creation-date="10/01/2018 16:27:34" order-index="18" type="ui-text-box">
+            <layout ax="115.6247" ay="609.4169" awidth="543" aheight="106" x="115.6247" y="609.4169" width="543" height="106" />
+          </item>
+          <item id="a25a6c18130e476394041b28a00eeb03" iid="45d7dce2655f45b7aac026aefbe2e734" container="db150142940141e999acdb5f942d1a69" container-iid="182cd8f1d8424d3091750b30344210f1" creation-date="10/01/2018 16:37:04" order-index="22" type="ui-area">
+            <layout ax="178.4768" ay="112.8196" awidth="445" aheight="238" x="178.4768" y="112.8196" width="445" height="238" />
+          </item>
+          <item id="cc2924bfa4404082bb58f30160585397" iid="26f63a99c80644639c7d03e43117fb4f" creation-date="10/01/2018 16:51:00" order-index="27" type="ui-titled-panel">
+            <layout ax="901" ay="488.021" awidth="620" aheight="1037.979" x="901" y="488.021" width="620" height="1037.979" />
+          </item>
+          <item id="2980a07ff66742bca3f36b147fa7af9b" iid="a5b696e00c1146a5a56becdc0016900f" container="cc2924bfa4404082bb58f30160585397" container-iid="26f63a99c80644639c7d03e43117fb4f" creation-date="10/01/2018 16:52:24" order-index="28" type="ui-grid">
+            <layout ax="965" ay="610.021" awidth="502" aheight="292.9172" x="965" y="610.021" width="502" height="292.9172" />
+          </item>
+          <item id="de96010d172c4059a0aa6a9520acd667" iid="946e2c92f6c2418fa9a71cdb29700c6c" container="cc2924bfa4404082bb58f30160585397" container-iid="26f63a99c80644639c7d03e43117fb4f" creation-date="10/01/2018 16:52:50" order-index="29" type="ui-label">
+            <layout ax="1003" ay="564.021" awidth="416" aheight="24" x="1003" y="564.021" width="416" height="24" />
+          </item>
+          <item id="f5f98df836ed4ace80dfad62f10ffb4f" iid="6523241291f2458b92bf24623c9d413e" container="cc2924bfa4404082bb58f30160585397" container-iid="26f63a99c80644639c7d03e43117fb4f" creation-date="10/01/2018 16:53:34" order-index="30" type="ui-group-box">
+            <layout ax="970" ay="937.155" awidth="499" aheight="362" x="970" y="937.155" width="499" height="362" />
+          </item>
+          <item id="cfcf090262774ab58b6ce3968244b015" iid="39a6be3fba7d4e8687c2b9b5933b0542" container="cc2924bfa4404082bb58f30160585397" container-iid="26f63a99c80644639c7d03e43117fb4f" creation-date="10/01/2018 16:55:45" order-index="31" type="ui-button">
+            <layout ax="1013" ay="1370.021" awidth="426" aheight="86" x="1013" y="1370.021" width="426" height="86" />
+          </item>
+          <item id="4c95b252eead42a5a057cc0e1b5ad18c" iid="d6f0a86035ad415b9b1da33dff64d392" creation-date="10/01/2018 17:05:54" order-index="36" type="ui-titled-panel">
+            <layout ax="1960" ay="382.859" awidth="1095" aheight="697" x="1960" y="382.859" width="1095" height="697" />
+          </item>
+          <item id="di17cdda34caec432daf307ff1ebc4897f1794" iid="d963bb9d1edc464e9dc8f0e5ef3ecfbc" creation-date="09/26/2018 13:40:04" order-index="7" type="ui-titled-panel">
+            <layout ax="52.61877" ay="1217.18" awidth="683.9999" aheight="1182" x="52.61877" y="1217.18" width="683.9999" height="1182" />
+          </item>
+          <item id="0b6516639bb64b6b9b696026ea6f9762" iid="1860266721b14d7984bf39afced61ca5" container="di17cdda34caec432daf307ff1ebc4897f1794" container-iid="d963bb9d1edc464e9dc8f0e5ef3ecfbc" active-container-page="uit-12402cbb-718f-465e-854b-c3df526e05ac" creation-date="09/26/2018 14:02:21" order-index="9" type="ui-tab-control">
+            <layout ax="48.28125" ay="1266.5" awidth="683.9999" aheight="1140.5" x="48.28125" y="1266.5" width="683.9999" height="1140.5" container-layout="simple" />
+            <tab-control active-tab="uit-12402cbb-718f-465e-854b-c3df526e05ac" />
+          </item>
+          <item id="a2311241bddd488498feaf626514b671" iid="9625c50c1fa543cc812b24579aa6ad2c" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-c3526f6b-e1c8-49c3-8b33-9f76f149dafe" creation-date="10/01/2018 16:31:25" order-index="19" type="ui-panel">
+            <layout ax="91" ay="1438" awidth="590" aheight="459" x="91" y="1438" width="590" height="459" />
+          </item>
+          <item id="293e590d4ff54900a5ced5f6512b5519" iid="18beafe8251f4ab5b00569cbec2299ca" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-c3526f6b-e1c8-49c3-8b33-9f76f149dafe" creation-date="10/01/2018 16:33:27" order-index="20" type="ui-button">
+            <layout ax="89" ay="1935" awidth="584" aheight="86" x="89" y="1935" width="584" height="86" />
+          </item>
+          <item id="bd510f418c134b34bab5b1938b2f31fa" iid="97bfa667b35d458e944eb5b468466be8" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-c3526f6b-e1c8-49c3-8b33-9f76f149dafe" creation-date="10/01/2018 16:34:35" order-index="21" type="ui-group-box">
+            <layout ax="99" ay="2076" awidth="562" aheight="248" x="99" y="2076" width="562" height="248" />
+          </item>
+          <item id="220b27f13e3e417ba0c7989632036f3e" iid="a81cf7ddf99a4c19aadcd405b6b07a73" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-31f3c06f-dcc9-4e01-9616-54d0b5aeca01" creation-date="10/01/2018 16:42:49" order-index="23" type="ui-group-box">
+            <layout ax="96" ay="1344" awidth="579" aheight="182" x="96" y="1344" width="579" height="182" />
+          </item>
+          <item id="77efcb080c3d49349de11bb10f1e4066" iid="56c550d8eeff47929cd8f34910d3d928" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-12402cbb-718f-465e-854b-c3df526e05ac" creation-date="10/01/2018 16:49:11" order-index="25" type="ui-button">
+            <layout ax="108" ay="1348" awidth="550" aheight="106" x="108" y="1348" width="550" height="106" />
+          </item>
+          <item id="5b71ec03efa744219eb9b7606d012848" iid="9851b334ff124a829e8fde2e0a2d915a" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-12402cbb-718f-465e-854b-c3df526e05ac" creation-date="10/01/2018 16:50:00" order-index="26" type="ui-group-box">
+            <layout ax="108" ay="1540" awidth="550" aheight="279" x="108" y="1540" width="550" height="279" />
+          </item>
+          <item id="d209ff60ba7d46018a42594d44f8def5" iid="2776055c583e4de387b6527150bfaf3f" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-c12a50a6-ee44-412b-b9a0-ab22e8b18c0b" creation-date="10/01/2018 16:57:08" order-index="32" type="ui-group-box">
+            <layout ax="97" ay="1354" awidth="579" aheight="197" x="97" y="1354" width="579" height="197" />
+          </item>
+          <item id="ca77e6faee6f4ed8846e0e989967c984" iid="a8f34b469e4a418ca9e5f58e2d870020" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-c12a50a6-ee44-412b-b9a0-ab22e8b18c0b" creation-date="10/01/2018 16:59:08" order-index="34" type="ui-group-box">
+            <layout ax="89" ay="1643" awidth="581" aheight="219" x="89" y="1643" width="581" height="219" />
+          </item>
+          <item id="207a132671a94de88e7e809b90d16b0d" iid="90e852a5bcde49cb820b69dd7bb84513" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-c12a50a6-ee44-412b-b9a0-ab22e8b18c0b" creation-date="10/01/2018 17:00:26" order-index="35" type="ui-group-box">
+            <layout ax="91" ay="1954" awidth="579" aheight="211" x="91" y="1954" width="579" height="211" />
+          </item>
+          <item id="b32a991411dd406ab55757aed9656d5e" iid="6fe76e6bffab4c86b41a82cf1cb755c3" container="4c95b252eead42a5a057cc0e1b5ad18c" container-iid="d6f0a86035ad415b9b1da33dff64d392" creation-date="10/01/2018 17:08:10" order-index="38" type="ui-area">
+            <layout ax="2276.5" ay="461.859" awidth="462" aheight="185" x="2276.5" y="461.859" width="462" height="185" />
+          </item>
+          <item id="a7969c36dab0438085b7176dc51a27b3" iid="dce4ca54c0ef462ba53b834c3a7677de" container="4c95b252eead42a5a057cc0e1b5ad18c" container-iid="d6f0a86035ad415b9b1da33dff64d392" creation-date="10/01/2018 17:09:28" order-index="39" type="ui-text-box">
+            <layout ax="2332.5" ay="707.859" awidth="350" aheight="75" x="2332.5" y="707.859" width="350" height="75" />
+          </item>
+          <item id="9e0ad529aa9449acb64d6f438fd018d9" iid="a28e998f1daf44ba812e98b4cc49d4a1" container="4c95b252eead42a5a057cc0e1b5ad18c" container-iid="d6f0a86035ad415b9b1da33dff64d392" creation-date="10/01/2018 17:10:23" order-index="40" type="ui-text-box">
+            <layout ax="2342.25" ay="843.859" awidth="340.25" aheight="70" x="2342.25" y="843.859" width="340.25" height="70" />
+          </item>
+          <item id="31951c613464495e88f389aa0ce86866" iid="a55bb468ed714ce79c75fbbd64f10e61" container="4c95b252eead42a5a057cc0e1b5ad18c" container-iid="d6f0a86035ad415b9b1da33dff64d392" creation-date="10/01/2018 17:11:08" order-index="41" type="ui-button">
+            <layout ax="2402" ay="972" awidth="243" aheight="48" x="2402" y="972" width="243" height="48" />
+          </item>
+          <item id="di90ef85b4568a4689810cd99d6a40a65e3843" iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 17:05:54" order-index="36" type="ui-titled-panel">
+            <layout ax="1960" ay="1273.859" awidth="1077" aheight="1094" x="1960" y="1273.859" width="1077" height="1094" />
+          </item>
+          <item id="fc2edf29163b4c1bba659503dbc7da20" iid="4af8db3b4aaa4369b410fc27b8e03e45" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-31f3c06f-dcc9-4e01-9616-54d0b5aeca01" creation-date="10/01/2018 18:46:09" order-index="51" type="ui-group-box">
+            <layout ax="109.2812" ay="1599" awidth="560.7188" aheight="148" x="109.2812" y="1599" width="560.7188" height="148" />
+          </item>
+          <item id="b6c7a84493de42c4b6d296ccb4b38277" iid="61ec5f955c0c40218fe5a1f7fa2e6fc8" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-31f3c06f-dcc9-4e01-9616-54d0b5aeca01" creation-date="10/01/2018 18:46:43" order-index="52" type="ui-group-box">
+            <layout ax="127.6187" ay="1804" awidth="543.3813" aheight="148" x="127.6187" y="1804" width="543.3813" height="148" />
+          </item>
+          <item id="bf3c30b6dd304912809c5e25f0b7de1f" iid="582fb1eb7edd486398bfd7062ea5e7c3" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-31f3c06f-dcc9-4e01-9616-54d0b5aeca01" creation-date="10/01/2018 18:47:27" order-index="53" type="ui-group-box">
+            <layout ax="121.6187" ay="1994" awidth="543.3813" aheight="148" x="121.6187" y="1994" width="543.3813" height="148" />
+          </item>
+          <item id="a43717bf14a34b678e8cd65ce8bba9be" iid="1fc754b0d26c4850b756ea927f1afc47" container="0b6516639bb64b6b9b696026ea6f9762" container-iid="1860266721b14d7984bf39afced61ca5" container-page="uit-31f3c06f-dcc9-4e01-9616-54d0b5aeca01" creation-date="10/01/2018 18:47:56" order-index="54" type="ui-group-box">
+            <layout ax="121.6187" ay="2192" awidth="535.5087" aheight="148" x="121.6187" y="2192" width="535.5087" height="148" />
+          </item>
+          <item id="a7707d45eee642a29d1f2c85f17eb2b1" iid="b721d072d4144832b9811e86f9a77930" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:10:06" order-index="42" type="ui-label">
+            <layout ax="1985" ay="1434.938" awidth="159" aheight="24.021" x="1985" y="1434.938" width="159" height="24.021" />
+          </item>
+          <item id="73ecdb7c7580481481fc3ad7078f90dc" iid="3fc7d334e9954e89909dd519c6ff5943" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:10:41" order-index="43" type="ui-text-box">
+            <layout ax="2002" ay="1472.938" awidth="445" aheight="50" x="2002" y="1472.938" width="445" height="50" />
+          </item>
+          <item id="840642b17ad44c79b3184bf47af2e9e9" iid="83c1b5d077984513a0f7205b5dd93009" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:11:05" order-index="44" type="ui-label">
+            <layout ax="2490" ay="1432.938" awidth="165" aheight="40" x="2490" y="1432.938" width="165" height="40" />
+          </item>
+          <item id="c0b8999c0b404ff79dc958b45d972224" iid="c9d3c6f7f0d14bb98ba3400dae492ecc" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:12:01" order-index="45" type="ui-text-box">
+            <layout ax="2504" ay="1479.079" awidth="220" aheight="43.85901" x="2504" y="1479.079" width="220" height="43.85901" />
+          </item>
+          <item id="a09ffb7dc98b4317af6a7f54cef469d0" iid="391481d753bc4f65906bce946480287a" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:12:47" order-index="46" type="ui-label">
+            <layout ax="2778" ay="1437.938" awidth="95" aheight="35" x="2778" y="1437.938" width="95" height="35" />
+          </item>
+          <item id="4ce71118f6fd40b4a501a7929ed065d1" iid="d516652b7a674aa797903d8296d6b185" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:15:26" order-index="47" type="ui-text-box">
+            <layout ax="2780" ay="1477.938" awidth="192" aheight="45" x="2780" y="1477.938" width="192" height="45" />
+          </item>
+          <item id="50008af451264a6db923ff914fd03d91" iid="6eebb6f5e60141dca92d289f144ab265" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:22:25" order-index="48" type="ui-label">
+            <layout ax="2007" ay="1557.938" awidth="157.5" aheight="43" x="2007" y="1557.938" width="157.5" height="43" />
+          </item>
+          <item id="6fbb327266c643b28fe342b8cb244d42" iid="3049c735d2a14b4b98f8a1d499a7c3df" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:29:43" order-index="49" type="ui-text-box">
+            <layout ax="2025" ay="1607.938" awidth="947" aheight="86" x="2025" y="1607.938" width="947" height="86" />
+          </item>
+          <item id="a6fae15a77fb4920be8f6091bfe2121d" iid="b398a5fac96440da94f23b9fdaaf35f1" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 18:31:01" order-index="50" type="ui-label">
+            <layout ax="1987" ay="1722.938" awidth="272" aheight="22.35901" x="1987" y="1722.938" width="272" height="22.35901" />
+          </item>
+          <item id="c5f72d632ac04f2b90821b4303b5595c" iid="3a7e74615fcc482380a5542f3b2cef68" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:18:44" order-index="55" type="ui-text-box">
+            <layout ax="2022" ay="1777.938" awidth="950" aheight="86" x="2022" y="1777.938" width="950" height="86" />
+          </item>
+          <item id="58d5a7a5633d444a8983c89ee7ba9403" iid="60ecdc9dc4764b988be220ace81b3f32" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:19:59" order-index="56" type="ui-label">
+            <layout ax="2015" ay="1902.938" awidth="272" aheight="58" x="2015" y="1902.938" width="272" height="58" />
+          </item>
+          <item id="bd7b1353b2404cf18ad7e39773c3a6b6" iid="9f73443876a047ceb531c8ac9a7ff47c" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:25:20" order-index="57" type="ui-text-box">
+            <layout ax="2035" ay="1965.938" awidth="262" aheight="62" x="2035" y="1965.938" width="262" height="62" />
+          </item>
+          <item id="b3bc1d6a68bb4cf6900047040a9c96e4" iid="743e8ce0b6d741508133690fdfd9b906" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:25:48" order-index="58" type="ui-label">
+            <layout ax="2375" ay="1921.938" awidth="242.5" aheight="45" x="2375" y="1921.938" width="242.5" height="45" />
+          </item>
+          <item id="57407b84ed4d4b3a87200160b6780ded" iid="f6d52ab9b7534d54a68847d2666973b7" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:26:34" order-index="59" type="ui-text-box">
+            <layout ax="2367.75" ay="1967.938" awidth="257" aheight="58" x="2367.75" y="1967.938" width="257" height="58" />
+          </item>
+          <item id="b60ccf026e72498489f580d941c2d4e6" iid="c6885c41a18d4fc9b51ab44b827a10ae" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:27:12" order-index="60" type="ui-label">
+            <layout ax="2687" ay="1917.938" awidth="272" aheight="43" x="2687" y="1917.938" width="272" height="43" />
+          </item>
+          <item id="b1b766816f8b492a8c7e90a2b95b99e1" iid="aa2793b7b7844778928894b2b5cfe7f4" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:27:59" order-index="61" type="ui-text-box">
+            <layout ax="2700" ay="1966.938" awidth="259" aheight="58" x="2700" y="1966.938" width="259" height="58" />
+          </item>
+          <item id="2ae757fc571a4b108a20bf0b0894828f" iid="4f2d2ba0dadc412bb86bf63768760fc6" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:34:30" order-index="62" type="ui-label">
+            <layout ax="2025" ay="2069.938" awidth="392" aheight="24" x="2025" y="2069.938" width="392" height="24" />
+          </item>
+          <item id="a65b304ffc2a4a43b070ab36f47a1ad9" iid="98a4e94ea2924d1799f2c7d1cb0d2f8f" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:35:49" order-index="63" type="ui-group-box">
+            <layout ax="2065" ay="2054.938" awidth="872" aheight="160" x="2065" y="2054.938" width="872" height="160" />
+          </item>
+          <item id="a5900e5ab12f484ab7ddfb0d2e05a607" iid="9f66773577c54f3bb757dda8d32ea2b6" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:38:45" order-index="64" type="ui-area">
+            <layout ax="2012" ay="1357" awidth="53" aheight="43" x="2012" y="1357" width="53" height="43" />
+          </item>
+          <item id="2561b148844d41198d070de60327be8f" iid="0c53417047cd47f1adf9bd44081a5da6" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:38:56" order-index="65" type="ui-label">
+            <layout ax="1992" ay="1360" awidth="290" aheight="43" x="1992" y="1360" width="290" height="43" />
+          </item>
+          <item id="a67df5b175c3453a943a7931315ef55a" iid="528940700faf41628555b0b956389a5a" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:39:55" order-index="66" type="ui-button">
+            <layout ax="2577" ay="2257" awidth="306" aheight="71" x="2577" y="2257" width="306" height="71" />
+          </item>
+          <item id="6b476c74b40a40c2839e9ced4a21229e" iid="25aa7d497a04483590c0d35b3c8598c5" container="di90ef85b4568a4689810cd99d6a40a65e3843" container-iid="068a65b80bc44352a66138a4e63f58fe" creation-date="10/01/2018 21:41:16" order-index="67" type="ui-button">
+            <layout ax="2092" ay="2262" awidth="286.75" aheight="66" x="2092" y="2262" width="286.75" height="66" />
+          </item>
+          <item id="5c52d719499d4553a7a615ec3adce558" iid="da6146d710794ed9b06405315886c329" creation-date="10/01/2018 21:59:24" order-index="68" type="ui-titled-panel">
+            <layout ax="3676" ay="1424" awidth="844" aheight="968" x="3676" y="1424" width="844" height="968" />
+          </item>
+          <item id="d6e42e04de4c40d2961030a6bed40c91" iid="31a02d6c429444a88ee7f14ed437a3e3" container="5c52d719499d4553a7a615ec3adce558" container-iid="da6146d710794ed9b06405315886c329" creation-date="10/01/2018 22:02:32" order-index="69" type="ui-group-box">
+            <layout ax="3734" ay="1649" awidth="728" aheight="212" x="3734" y="1649" width="728" height="212" />
+          </item>
+          <item id="2963e929724945438061d297078910f3" iid="d05a1be231654fe4a0bc400bd5333e7a" container="5c52d719499d4553a7a615ec3adce558" container-iid="da6146d710794ed9b06405315886c329" creation-date="10/01/2018 22:05:12" order-index="70" type="ui-group-box">
+            <layout ax="3758" ay="1933" awidth="684" aheight="178.9377" x="3758" y="1933" width="684" height="178.9377" />
+          </item>
+          <item id="0967f2b4f0c840599d7f08fc2b45aa72" iid="0a855605398f476dbd8bd0ca69de8f3a" container="d6e42e04de4c40d2961030a6bed40c91" container-iid="31a02d6c429444a88ee7f14ed437a3e3" creation-date="10/01/2018 22:14:59" order-index="72" type="ui-button">
+            <layout ax="4290" ay="1715" awidth="107" aheight="106" x="4290" y="1715" width="107" height="106" />
+          </item>
+          <item id="aab921f546ca4cf7bd2faa82e6f03673" iid="09155a5531a64a96868e55c4e9616d62" container="d6e42e04de4c40d2961030a6bed40c91" container-iid="31a02d6c429444a88ee7f14ed437a3e3" creation-date="10/01/2018 22:15:28" order-index="73" type="ui-text-box">
+            <layout ax="3774" ay="1713" awidth="451" aheight="108" x="3774" y="1713" width="451" height="108" />
+          </item>
+          <item id="6e44c0b5dc294b3b9bcb41c2bab91c81" iid="feb73a80e0424a979af73c09ea8243a4" container="2963e929724945438061d297078910f3" container-iid="d05a1be231654fe4a0bc400bd5333e7a" creation-date="10/01/2018 22:13:44" order-index="71" type="ui-button">
+            <layout ax="4294" ay="1999" awidth="96" aheight="86" x="4294" y="1999" width="96" height="86" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
