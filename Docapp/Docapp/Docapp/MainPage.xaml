@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Docapp"
+             x:Class="Docapp.MainPage" 
+             BackgroundImage="Fondo">
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ActivityIndicator Grid.RowSpan="3" Color="Red" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        <StackLayout Grid.Row="1" Orientation="Vertical">
+            <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="0,5,0,0">
+                <Image Source="Logo" Aspect="AspectFit"  HeightRequest="240" WidthRequest="240"  VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="#ced6d8" Grid.Row="2" Orientation="Vertical"   Margin="40,0,40,30" Opacity="0.8">
+            <StackLayout Orientation="Vertical" Margin="40,20">
+                <Grid>
+                <Image Source="usr" HeightRequest="20" WidthRequest="20"/>
+                <Entry  TextColor="Gray" Placeholder="Usuario"  PlaceholderColor="Gray" FontSize="18" HorizontalTextAlignment="Start"/>
+                </Grid>
+                
+                <Entry TextColor="Gray" Placeholder="Contraseña" PlaceholderColor="Gray" IsPassword="True" FontSize="18" HorizontalTextAlignment="Start"/>
+              
+            </StackLayout>
+            
+        </StackLayout>
+        <StackLayout Grid.Row="3">
+            <Button Margin="50,10" Text="Entrar" BackgroundColor="#15B8D4" TextColor="White" FontSize="18"/>
+
+        </StackLayout>
+
+        <StackLayout  Margin="0,30" Grid.Row="4" Orientation="Vertical">
+            
+                <Image HorizontalOptions="Center"  Source="contacto" Aspect="AspectFit"   />
+             
+        </StackLayout> 
+    </Grid>
+</ContentPage>
+
