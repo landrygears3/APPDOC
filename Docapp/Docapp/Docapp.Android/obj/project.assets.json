@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\landr\\source\\repos\\Docapp\\Docapp\\Docapp.Android\\Docapp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\Docapp.Android.csproj",
       "projectName": "Docapp.Android",
-      "projectPath": "C:\\Users\\landr\\source\\repos\\Docapp\\Docapp\\Docapp.Android\\Docapp.Android.csproj",
+      "projectPath": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\Docapp.Android.csproj",
       "packagesPath": "C:\\Users\\landr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\landr\\source\\repos\\Docapp\\Docapp\\Docapp.Android\\obj\\",
+      "outputPath": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
