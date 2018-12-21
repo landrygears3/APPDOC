@@ -28,10 +28,12 @@ C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\ob
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.ComponentModel.dll
+C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Reflection.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Threading.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Reflection.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
@@ -45,8 +47,6 @@ C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\ob
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Globalization.dll
-C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.ComponentModel.dll
-C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.IO.dll
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll

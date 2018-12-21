@@ -12,6 +12,12 @@ namespace Docapp
 		public MainPage()
 		{
 			InitializeComponent();
-		}
-	}
+            btnenter.Clicked += Btnenter_Clicked;
+        }
+
+        private void Btnenter_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PushModalAsync(new Conjunto());
+        }
+    }
 }

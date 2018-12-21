@@ -8,8 +8,25 @@
 
 
             <!--Estilo frame-->
+            
+            
+            <Color x:FactoryMethod="FromHsla" x:Key="Colorframe1">
+                <x:Arguments>
+                    <x:Double>0.528</x:Double>
+                    <x:Double>1</x:Double>
+                    <x:Double>0.25</x:Double>
+                    <x:Double>0.8</x:Double>
+                </x:Arguments>
+            </Color>
+            <Color x:FactoryMethod="FromHsla" x:Key="Colorframe2">
+                <x:Arguments>
+                    <x:Double>0.111</x:Double>
+                    <x:Double>1</x:Double>
+                    <x:Double>0.40</x:Double>
+                    <x:Double>0.8</x:Double>
+                </x:Arguments>
+            </Color>
             <Style TargetType="Frame">
-                <Setter Property="CornerRadius" Value="30"/>
                 <Setter Property="HorizontalOptions" Value="Center"/>
                 <Setter Property="VerticalOptions" Value="Start"/>
                 <Setter Property="HasShadow" Value="True"/>

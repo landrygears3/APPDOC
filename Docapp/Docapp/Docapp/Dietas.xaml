@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Docapp"
+             x:Class="Docapp.Dietas"
+             Icon="manz"
+             BackgroundImage="imgdietas">
+    <ContentPage.Content>
+        <Grid x:Name="LayoutRoot">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Margin="0,30,0,0" Grid.Row="1">
+                <Label TextColor="Black" FontAttributes="Bold,Italic" FontSize="20" Text="Recomendaciones"/>
+                <Frame CornerRadius="30"   HeightRequest="150" WidthRequest="300"  BackgroundColor="{StaticResource Colorframe1}">
+                    <Label Text="No hay recomendaciones" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Margin="0,30,0,0" Grid.Row="2">
+                <Frame CornerRadius="30"   HeightRequest="80" WidthRequest="250"  BackgroundColor="{StaticResource Colorframe2}">
+                    <Label Text="No hay recomendaciones" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Margin="0,30,0,0" Grid.Row="3">
+                
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

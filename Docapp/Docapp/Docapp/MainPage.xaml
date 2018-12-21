@@ -24,8 +24,8 @@
 
 
             <StackLayout Grid.Row="2" Orientation="Vertical"   Margin="40,60,40,30" Opacity="0.9">
-                <Frame BackgroundColor="#FFFFFF">
-                    <Frame Margin="3,2,2,3">
+                <Frame CornerRadius="30" BackgroundColor="#FFFFFF">
+                    <Frame CornerRadius="30" Margin="3,2,2,3">
                     <StackLayout Orientation="Vertical" Margin="40,20">
                             <Grid>
                             <Label VerticalOptions="Start" Text="Ingresa tus datos"/>
@@ -45,8 +45,8 @@
             </StackLayout>
 
             <StackLayout Grid.Row="3">
-                <Button Margin="60,0" Text="Entrar" BackgroundColor="#15B8D4"/>
-             
+                <Button x:Name="btnenter" Margin="60,0" Text="Entrar" BackgroundColor="#15B8D4"></Button>
+
             </StackLayout>
 
             <StackLayout VerticalOptions="End"  Margin="0,30" Grid.Row="4" Orientation="Vertical">
