@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\lp\1\jl\formsviewgroup.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\formsviewgroup.jar</Jar>
+    <Jar>obj\Debug\lp\3\jl\support-annotations.jar</Jar>
+    <Jar>C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\lp\0\jl\formsviewgroup.jar</Jar>
     <Jar>C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\lp\10\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\lp\11\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\lp\12\jl\bin\classes.jar</Jar>
