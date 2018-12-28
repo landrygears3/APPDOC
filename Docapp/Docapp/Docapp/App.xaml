@@ -37,7 +37,6 @@
                 <Setter Property="VerticalOptions" Value="Start"/>
                 <Setter Property="HasShadow" Value="True"/>
                 <Setter Property="Padding" Value="0"/>
-               <!-- <Setter Property="BackgroundColor" Value="#ced6d8"/>-->
             </Style>
             <!--Estilo  Entry-->
             <Style TargetType="Entry">
