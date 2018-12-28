@@ -37,7 +37,6 @@
                 <Setter Property="VerticalOptions" Value="Start"/>
                 <Setter Property="HasShadow" Value="True"/>
                 <Setter Property="Padding" Value="0"/>
-               <!-- <Setter Property="BackgroundColor" Value="#ced6d8"/>-->
             </Style>
             <!--Estilo  Entry-->
             <Style TargetType="Entry">
@@ -55,13 +54,13 @@
             </Style>
             <!--Estilo label descripción-->
             <Style x:Key="Lbldesc"  TargetType="Label">
-                <Setter Property="TextColor" Value="black"/>
+                <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
             </Style>
             <!--Estilo label encabezado-->
             <Style x:Key="Lblenc"  TargetType="Label">
-                <Setter Property="TextColor" Value="black"/>
+                <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="Font" Value="Bold"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
