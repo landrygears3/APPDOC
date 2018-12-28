@@ -2,8 +2,144 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Docapp.Perfil"
-             Icon="usr">
+             xmlns:local="clr-namespace:Docapp"
+             Icon="usr"
+             BackgroundColor="White">
     <ContentPage.Content>
+     
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0">
+                    <Label HorizontalOptions="Start" Margin="10,20,0,0" Style="{StaticResource Lblfront}" Text="Control de peso"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--Labels sin modificación-->
+                        <Label Grid.Column="0" Grid.Row="0" HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lbldesc}" Text="Peso ideal"/>
+                        <Label Grid.Column="0" Grid.Row="1" HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lbldesc}" Text="Control de peso"/>
+                        <Label Grid.Column="0" Grid.Row="2" HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lbldesc}" Text="Control de grasa"/>
+                        <Label Grid.Column="0" Grid.Row="3" HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lbldesc}" Text="Control de músculo"/>
+                        <!--Labels para datos con id-->
+                        <Label Grid.Column="1" Grid.Row="0" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="70"/>
+                        <Label Grid.Column="1" Grid.Row="1" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="18"/>
+                        <Label Grid.Column="1" Grid.Row="2" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="18"/>
+                        <Label Grid.Column="1" Grid.Row="3" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="0"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Grid.Row="1">
+                    <Label HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lblfront}" Text="Grupo calórico del ejercicio"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--No modificables-->
+                        <Label Grid.Column="0" Grid.Row="0" HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lbldesc}" Text="Masa libre de grasa"/>
+                        <Label Grid.Column="0" Grid.Row="1" HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lbldesc}" Text="Tasa Metabólica basal"/>
+                        <Label Grid.Column="0" Grid.Row="2" HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lbldesc}" Text="Relación cintura cadera"/>
+                        <Label Grid.Column="0" Grid.Row="3" HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lbldesc}" Text="Nivel de grasa visceral"/>
+                        <!--Labels para datos con id-->
+                        <Label Grid.Column="1" Grid.Row="0" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="59.9"/>
+                        <Label Grid.Column="1" Grid.Row="1" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="1655KCal(1832 - 2157)"/>
+                        <Label Grid.Column="1" Grid.Row="2" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="0.94(0.80 - 0.90)"/>
+                        <Label Grid.Column="1" Grid.Row="3" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="11 (1 - 9)"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" Margin="10" Grid.Row="2">
+                    <Grid BackgroundColor="White" Margin="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--No modificables-->
+                        <Label Style="{StaticResource Lblenc}" Grid.Column="0" Grid.Row="0" Text="Usuario"/>
+                        <Label Style="{StaticResource Lblenc}" Grid.Column="1" Grid.Row="0" Text="Altura"/>
+                        <Label Style="{StaticResource Lblenc}" Grid.Column="2" Grid.Row="0" Text="Edad"/>
+                        <Label Style="{StaticResource Lblenc}" Grid.Column="3" Grid.Row="0" Text="Sexo"/>
+                        <Label Style="{StaticResource Lblenc}" Grid.Column="4" Grid.Row="0" Text="Fecha/Hora"/>
+                        <!--Labels para datos con id-->
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Grid.Column="0" Grid.Row="1" Text="Maria21"/>
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Grid.Column="1" Grid.Row="1" Text="174cm"/>
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Grid.Column="2" Grid.Row="1" Text="31"/>
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Grid.Column="3" Grid.Row="1" Text="F"/>
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Grid.Column="4" Grid.Row="1" Text="16/10/2018  10:34am"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" Margin="10" Grid.Row="3">
+                    <Grid BackgroundColor="White" Margin="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--No modificables-->
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10" Grid.Column="0" Grid.Row="0" Text="Cantidad total de agua en el cuerpo"/>
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10"  Grid.Column="0" Grid.Row="1" Text="Para producir los músculos"/>
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10"  Grid.Column="0" Grid.Row="2" Text="Para fortalecer los huesos"/>
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10"  Grid.Column="0" Grid.Row="3" Text="Para almacenar exceso de energía"/>
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10"  Grid.Column="0" Grid.Row="4" Text="Suma de lo anterior"/>
+
+                        <Label Style="{StaticResource Lblenc}" FontSize="10"  Grid.Column="1" Grid.Row="0" Text="Agua corporal total"/>
+                        <Label Style="{StaticResource Lblenc}" FontSize="10"  Grid.Column="1" Grid.Row="1" Text="Proteinas"/>
+                        <Label Style="{StaticResource Lblenc}" FontSize="10"  Grid.Column="1" Grid.Row="2" Text="Minerales"/>
+                        <Label Style="{StaticResource Lblenc}" FontSize="10"  Grid.Column="1" Grid.Row="3" Text="Masa Grasa Corporal"/>
+                        <Label Style="{StaticResource Lblenc}" FontSize="10"  Grid.Column="1" Grid.Row="4" Text="Peso"/>
+                        
+                        <!--Editables-->
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10" Grid.Column="2" Grid.Row="0" Text="43.34(37.5-458)"/>
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10"  Grid.Column="2" Grid.Row="1" Text="11.8()10.0-12.3"/>
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10"  Grid.Column="2" Grid.Row="2" Text="4.28(3.46-4.23)"/>
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10"  Grid.Column="2" Grid.Row="3" Text="29.0(8.0-16.0)"/>
+                        <Label Style="{StaticResource Lbldesc}" FontSize="10"  Grid.Column="2" Grid.Row="4" Text="88.5(56.6-76.6)"/>    
+
+                    </Grid>
+                </StackLayout>
+                
+                <StackLayout VerticalOptions="End" Grid.Row="6" Orientation="Vertical">
+                    <Image HorizontalOptions="CenterAndExpand" Source="contacto2" Aspect="AspectFit"   />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+            
       
     </ContentPage.Content>
 </ContentPage>

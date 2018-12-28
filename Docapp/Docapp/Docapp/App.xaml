@@ -46,10 +46,24 @@
                 <Setter Property="FontSize" Value="15"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
             </Style>
-            <!--Estilo  Label-->
-            <Style TargetType="Label">
-                <Setter Property="TextColor" Value="Black"/>
-                <Setter Property="FontSize" Value="15"/>
+            <!--Estilo  Label Superior-->
+            <Style x:Key="Lblfront"  TargetType="Label">
+                <Setter Property="TextColor" Value="OrangeRed"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="Font" Value="Bold"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <!--Estilo label descripción-->
+            <Style x:Key="Lbldesc"  TargetType="Label">
+                <Setter Property="TextColor" Value="black"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <!--Estilo label encabezado-->
+            <Style x:Key="Lblenc"  TargetType="Label">
+                <Setter Property="TextColor" Value="black"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="Font" Value="Bold"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
             </Style>
 

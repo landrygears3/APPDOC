@@ -52,7 +52,6 @@ C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bi
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Debug\Docapp.Android.pdb
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Debug\com.companyname.Docapp.apk
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Debug\com.companyname.Docapp-Signed.apk
-C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\Docapp.Android.csprojResolveAssemblyReference.cache
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\App.xaml.g.cs
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\MainPage.xaml.g.cs
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\Perfil.xaml.g.cs
@@ -133,8 +132,13 @@ C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\ob
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\res\drawable-xxhdpi\comida.png
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\res\drawable-xxhdpi\desayuno.png
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\res\drawable-xxhdpi\cena.png
+C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\res\drawable\contacto2.png
+C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\res\drawable-hdpi\contacto2.png
+C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\res\drawable-xhdpi\contacto2.png
+C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\res\drawable-xxhdpi\contacto2.png
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\R.cs.flag
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\uploadflags.txt
+C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\Docapp.Android.csprojResolveAssemblyReference.cache
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Debug\Docapp.Android.dll.mdb
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Docapp.Android.dll.mdb
 C:\Users\landr\OneDrive\Documentos\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Debug\Docapp.Android.dll

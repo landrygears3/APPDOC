@@ -5,6 +5,6 @@
              xmlns:local="clr-namespace:Docapp"
              BackgroundImage="imgdietas">
     <ContentPage.Content>
-        <Label x:Name="lblinfo" Text="No hay"/>
+        <Label Style="{StaticResource Lblenc}" x:Name="lblinfo" Text="No hay"/>
     </ContentPage.Content>
 </ContentPage>

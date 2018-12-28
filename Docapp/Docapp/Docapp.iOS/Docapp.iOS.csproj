@@ -148,6 +148,9 @@
   <ItemGroup>
     <BundleResource Include="Resources\Cena.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\contacto2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\Docapp\Docapp.projitems" Label="Shared" />
 </Project>
