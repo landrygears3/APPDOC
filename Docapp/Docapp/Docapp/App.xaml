@@ -55,13 +55,13 @@
             </Style>
             <!--Estilo label descripción-->
             <Style x:Key="Lbldesc"  TargetType="Label">
-                <Setter Property="TextColor" Value="black"/>
+                <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
             </Style>
             <!--Estilo label encabezado-->
             <Style x:Key="Lblenc"  TargetType="Label">
-                <Setter Property="TextColor" Value="black"/>
+                <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="Font" Value="Bold"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>

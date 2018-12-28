@@ -28,30 +28,30 @@
             </StackLayout>
 
             <StackLayout Margin="0,30,0,0" Grid.Row="2">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" >
-                        <Button  Opacity="80" x:Name="btndesayuno" BackgroundColor="{StaticResource azulactrans}" Text="Desayuno"/>
+                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent">
+                        <Button x:Name="btndesayuno"  Text="Desayuno" TextColor="White" BackgroundColor="{StaticResource azulactrans}"/>
                     </Frame>
             </StackLayout>
 
                 <StackLayout Margin="0,30,0,0" Grid.Row="3">
-                    <Frame CornerRadius="20"   HeightRequest="40" WidthRequest="250" >
+                    <Frame CornerRadius="20"   HeightRequest="40" WidthRequest="250" BackgroundColor="Transparent" >
                         <Button Opacity="80" x:Name="btncolacion1" BackgroundColor="{StaticResource azulactrans}" Text="Colación"/>
                     </Frame>
                 </StackLayout>
             
                 <StackLayout Margin="0,30,0,0" Grid.Row="4">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" >
+                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent" >
                         <Button Opacity="80"  x:Name="btncomida" BackgroundColor="{StaticResource azulactrans}" Text="Comida"/>
                     </Frame>
                 </StackLayout>
 
                 <StackLayout Margin="0,30,0,0" Grid.Row="5">
-                    <Frame CornerRadius="20"   HeightRequest="40" WidthRequest="250"  >
+                    <Frame CornerRadius="20"   HeightRequest="40" WidthRequest="250" BackgroundColor="Transparent" >
                         <Button  Opacity="80" x:Name="btncolacion2" BackgroundColor="{StaticResource azulactrans}" Text="Colación"/>
                     </Frame>
                 </StackLayout>
                 <StackLayout Margin="0,30,0,0" Grid.Row="6">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" >
+                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent" >
                         <Button Opacity="80" x:Name="btncena" BackgroundColor="{StaticResource azulactrans}" Text="Cena"/>
                     </Frame>
                 </StackLayout>
