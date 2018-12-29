@@ -16,5 +16,11 @@ namespace Docapp
 		{
 			InitializeComponent ();
 		}
-	}
+        private void ListViewItem_Tabbed(object sender, ItemTappedEventArgs e)
+        {
+            var product = e.Item as Product;
+            var vm = BindingContext as MainListView;
+            vm?.ShoworHiddenProducts(product);
+        }
+    }
 }

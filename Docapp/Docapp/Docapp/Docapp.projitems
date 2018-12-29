@@ -20,6 +20,8 @@
       <DependentUpon>Citas.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Product.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Conjunto.xaml.cs">
       <DependentUpon>Conjunto.xaml</DependentUpon>
       <SubType>Code</SubType>

@@ -22,7 +22,6 @@
 
                 <StackLayout Margin="0,30,0,0" Grid.Row="1">
                     <Label TextColor="Black" FontAttributes="Bold,Italic" FontSize="20" Text="Solicitar Cita"/>
-                    <Calendar Height="170" HorizontalAlignment="Left" Margin="58,32,0,0" Name="calendar1" VerticalAlignment="Top" Width="180" />
                     <Frame CornerRadius="20"   HeightRequest="150" WidthRequest="300"  BackgroundColor="{StaticResource azulactrans}">
                         <Label Text="No hay recomendaciones" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White"/>
                     </Frame>

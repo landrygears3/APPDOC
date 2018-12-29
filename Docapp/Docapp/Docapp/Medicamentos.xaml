@@ -1,10 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Docapp"
              x:Class="Docapp.Medicamentos"
              Icon="med"
              BackgroundImage="imgmedicamentos">
-    <ContentPage.Content>
-      
-    </ContentPage.Content>
+    <ContentPage.BindingContext>
+        <local:MainListView/>
+    </ContentPage.BindingContext>
+    <ListView Margin="0,80"  
+              ItemTapped="ListViewItem_Tabbed"  
+              ItemsSource="{Binding Products}"  
+              HasUnevenRows="True"  
+              BackgroundColor="Transparent">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Padding="20">
+                        <Frame CornerRadius="20"   HeightRequest="75" WidthRequest="300"  BackgroundColor="{StaticResource azulactrans}">
+                            <Label Text="{Binding Title}"  
+                               FontSize="25"  
+                               TextColor="White"
+                               HorizontalTextAlignment="Center" 
+                               VerticalTextAlignment="Center"
+                               />
+                        </Frame>
+                        <StackLayout IsVisible="{Binding IsVisible}"  
+                                     Orientation="Horizontal"  
+                                     Margin="0,0,80,0">
+                            <Label Text="Indicaciones"  
+                               FontSize="25"  
+                               TextColor="Azure"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                        
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>
