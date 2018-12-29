@@ -16,8 +16,6 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
                 <StackLayout Grid.Row="0">
@@ -100,14 +98,13 @@
                     </Grid>
                 </StackLayout>
                 <StackLayout BackgroundColor="Black" Margin="10" Grid.Row="3">
-                    <Label Margin="0,5,0,0" Style="{StaticResource Lblenc}" TextColor="White" Grid.Column="0" Grid.Row="0" Text="Análisis de composición corporal"/>
                     <Grid BackgroundColor="White" Margin="2">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
-                            <RowDefinition  Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*"/>
@@ -136,138 +133,10 @@
 
                     </Grid>
                 </StackLayout>
-                <StackLayout Grid.Row="4" Margin="10">
-                   
-                    <StackLayout BackgroundColor="Black">
-                        <Label Margin="0,5,0,0" HorizontalOptions="Fill" HorizontalTextAlignment="Center" TextColor="White" Style="{StaticResource Lblenc}" Grid.Column="0" Grid.Row="0" Text="Análisis de composición corporal"/>
-                        <Grid BackgroundColor="White" Margin="2">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="15"/>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="2*"/>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="3*"/>
-                            </Grid.ColumnDefinitions>
-                            <!--Colores-->
-                            <Label Grid.Column="0" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="#1D71B5" HorizontalOptions="Fill" VerticalOptions="Fill"/>
-                            <Label Grid.Column="1" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="#fbc04a" HorizontalOptions="Fill" VerticalOptions="Fill"  Text="Bajo" />
-                            <Label Grid.Column="2" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="Green" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Normal"/>
-                            <Label Grid.Column="3" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="Red" HorizontalOptions="Fill" VerticalOptions="Fill"  Text="Alto" />
-                            <!--Nombres-->
-                            <Label Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Peso"/>
-                            <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Masa musculo esquelético"/>
-                            <Label Grid.Column="0" Grid.Row="3" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Masa grasa corporal"/>
-                            <!--Progress bar-->
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Progress="0.4292"/>
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="#fbc04a" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Progress="0.1970"/>
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Green" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" Progress="0.40"/>
-
-                        </Grid>
-                    </StackLayout>
-                </StackLayout>
-                <StackLayout Grid.Row="5" Margin="10">
-
-                    <StackLayout BackgroundColor="Black">
-                        <Label Margin="0,5,0,0" HorizontalOptions="Fill" HorizontalTextAlignment="Center" TextColor="White" Style="{StaticResource Lblenc}" Grid.Column="0" Grid.Row="0" Text="Análisis de composición corporal"/>
-                        <Grid BackgroundColor="White" Margin="2">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="15"/>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="2*"/>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="3*"/>
-                            </Grid.ColumnDefinitions>
-                            <!--Colores-->
-                            <Label Grid.Column="0" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="#1D71B5" HorizontalOptions="Fill" VerticalOptions="Fill"/>
-                            <Label Grid.Column="1" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="#fbc04a" HorizontalOptions="Fill" VerticalOptions="Fill"  Text="Bajo" />
-                            <Label Grid.Column="2" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="Green" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Normal"/>
-                            <Label Grid.Column="3" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="Red" HorizontalOptions="Fill" VerticalOptions="Fill"  Text="Alto" />
-                            <!--Nombres-->
-                            <Label Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Indice de masa corporal"/>
-                            <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Porcentaje de Grasa corporal"/>
-                            <!--Progress bar-->
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Progress="0.70"/>
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Progress="0.55"/>
-
-                        </Grid>
-                    </StackLayout>
-                </StackLayout>
-
                 
-                        
-                    <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="6">
-                    <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Analisis de grasa magna segmental"/>
-
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Image Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HeightRequest="110" WidthRequest="110" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="imgmbi" />
-                        <Image Grid.Column="2" Grid.Row="2" HorizontalOptions="Fill" VerticalOptions="Fill" HeightRequest="110" WidthRequest="110" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="imgpd" />
-                        <Image Grid.Column="0" Grid.Row="2" HorizontalOptions="Fill" VerticalOptions="Fill" HeightRequest="110" WidthRequest="110" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="imgpi" />
-                        <Image Grid.Column="2" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HeightRequest="110" WidthRequest="110" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="imgmbd" />
-                        <Label Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" HorizontalOptions="Start" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" VerticalOptions="Fill" Style="{StaticResource Lbldesc}" FontSize="10" Rotation="90" Text="Izquierda"/>
-                        <Label Grid.Column="3" Grid.Row="0" Grid.RowSpan="4" HorizontalOptions="End" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" VerticalOptions="Fill" Style="{StaticResource Lbldesc}" FontSize="10" Rotation="90" Text="Derecha"/>
-                        <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                        <Label Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                        <Label Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                        <Label Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                        <Label Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                    </Grid>
-                </StackLayout>
-
-                <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="7">
-                    <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Analisis de grasa segmental"/>
-
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Image Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HeightRequest="110" WidthRequest="110" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="imgbi" />
-                        <Image Grid.Column="2" Grid.Row="2" HorizontalOptions="Fill" VerticalOptions="Fill" HeightRequest="110" WidthRequest="110" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="imgpd" />
-                        <Image Grid.Column="0" Grid.Row="2" HorizontalOptions="Fill" VerticalOptions="Fill" HeightRequest="110" WidthRequest="110" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="imgpi" />
-                        <Image Grid.Column="2" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" HeightRequest="110" WidthRequest="110" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="imgbd" />
-                        <Label Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" HorizontalOptions="Start" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" VerticalOptions="Fill" Style="{StaticResource Lbldesc}" FontSize="10" Rotation="90" Text="Izquierda"/>
-                        <Label Grid.Column="3" Grid.Row="0" Grid.RowSpan="4" HorizontalOptions="End" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" VerticalOptions="Fill" Style="{StaticResource Lbldesc}" FontSize="10" Rotation="90" Text="Derecha"/>
-                        <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                        <Label Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                        <Label Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                        <Label Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                        <Label Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="20" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Text="3.22KG &#10;93.3&#10;Normal"/>
-                    </Grid>
-                </StackLayout>
-                   
-                <StackLayout VerticalOptions="End" Grid.Row="8" Orientation="Vertical">
+                <StackLayout VerticalOptions="End" Grid.Row="6" Orientation="Vertical">
                     <Image HorizontalOptions="CenterAndExpand" Source="contacto2" Aspect="AspectFit"   />
                 </StackLayout>
-                
             </Grid>
         </ScrollView>
             

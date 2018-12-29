@@ -151,24 +151,6 @@
   <ItemGroup>
     <BundleResource Include="Resources\contacto2.png" />
   </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\imgpi.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\imgbd.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\imgbi.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\imgmbd.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\imgmbi.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\imgpd.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\Docapp\Docapp.projitems" Label="Shared" />
 </Project>
