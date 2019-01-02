@@ -17,5 +17,10 @@ namespace Docapp
 			InitializeComponent ();
             lblinfo.Text = des;
 		}
-	}
+        public DescDiet()
+        {
+            InitializeComponent();
+
+        }
+    }
 }

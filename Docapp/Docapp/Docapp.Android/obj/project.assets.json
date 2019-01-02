@@ -341,6 +341,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
       "XamForms.Controls.Calendar/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -926,6 +938,23 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+      "sha512": "1QJzPUm9dLBu+i3NGHPZmk7w58kCb74i8QbtrDLbPZesqVjAaEnRrGjKTvZlxJCEKWPKgqZMb0af30+Al82KEQ==",
+      "type": "package",
+      "path": "xamarin.forms.carouselview/2.3.0-pre2",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xamarin.Forms.CarouselView.dll",
+        "lib/MonoTouch10/Xamarin.Forms.CarouselView.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
+        "lib/uap10.0/Xamarin.Forms.CarouselView.dll",
+        "lib/win81/Xamarin.Forms.CarouselView.dll",
+        "lib/wpa81/Xamarin.Forms.CarouselView.dll",
+        "xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512",
+        "xamarin.forms.carouselview.nuspec"
+      ]
+    },
     "XamForms.Controls.Calendar/1.1.1": {
       "sha512": "2n4oxOO7XWVD1secr1Ez6Ai3JkqZT77XH2MY5U20UKkM5cMKbO47nDb28WaEO766rxDnc4EWP8vg+3R0jxQIPQ==",
       "type": "package",
@@ -959,24 +988,25 @@
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0",
-      "Xamarin.Forms >= 4.0.0.8055-pre1"
+      "Xamarin.Forms >= 4.0.0.8055-pre1",
+      "Xamarin.Forms.CarouselView >= 2.3.0-pre2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gerard\\.nuget\\packages\\": {}
+    "C:\\Users\\landr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gerard\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\Docapp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\Docapp.Android.csproj",
       "projectName": "Docapp.Android",
-      "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\Docapp.Android.csproj",
-      "packagesPath": "C:\\Users\\Gerard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gerard\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\obj\\",
+      "projectPath": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\Docapp.Android.csproj",
+      "packagesPath": "C:\\Users\\landr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Gerard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\landr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -984,8 +1014,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Gerard\\Downloads\\Packages": {},
-        "https://www.nuget.org/packages": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
@@ -1023,6 +1052,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.0.0.8055-pre1, )"
+          },
+          "Xamarin.Forms.CarouselView": {
+            "target": "Package",
+            "version": "[2.3.0-pre2, )"
           }
         }
       }
