@@ -3,32 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Docapp.DescDiet"
              xmlns:local="clr-namespace:Docapp"
-             xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
-             BackgroundImage="imgdietas">
+             xmlns:carousel="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions">
     <ContentPage.Content>
-        <Label Style="{StaticResource Lblenc}" x:Name="lblinfo" Text="No hay"/>
-        <Grid RowSpacing="0">
+        <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height=".3*"/>
-                <RowDefinition Height=".7*"/>
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="Auto" />
             </Grid.RowDefinitions>
-            <cv:CarouselView ItemsSource="{Binding Zoos}" x:Name="CarouselZoos">
-                <cv:CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Image Grid.RowSpan="2" Aspect="AspectFill" Source="{Binding ImageUrl}"/>
-                            <StackLayout Grid.Row="1" BackgroundColor="#80000000" Padding="12">
-                                <Label TextColor="White" Text="{Binding Name}" FontSize="16" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
-                            </StackLayout>
-                        </Grid>
-                    </DataTemplate>
-                </cv:CarouselView.ItemTemplate>
-            </cv:CarouselView>
-            <!--List of Monkeys below-->
+            <carousel:CarouselViewControl
+                x:Name="Carousel"
+                Grid.Row="0"
+                Grid.RowSpan="2"
+                Orientation="Horizontal"
+                Position="0"
+                ShowIndicators="True"
+                CurrentPageIndicatorTintColor="LightGray"
+                IndicatorsTintColor="White"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                ItemsSource="{Binding ventanas}"/>
+            <Grid
+                Grid.Row="1"
+                Padding="12"
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="EndAndExpand"
+                AutomationId="skip">
+                <Label
+                    Text="SKIP"
+                    Style="{StaticResource SkipStyle}" />
+            </Grid>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

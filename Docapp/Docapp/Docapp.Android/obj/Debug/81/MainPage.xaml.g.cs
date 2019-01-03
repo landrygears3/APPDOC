@@ -13,7 +13,8 @@
 namespace Docapp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Gerard\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\MainPage.xa" +
+        "ml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

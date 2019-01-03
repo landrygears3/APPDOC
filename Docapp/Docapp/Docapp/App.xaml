@@ -7,7 +7,6 @@
         <ResourceDictionary>
 
 
-            
             <Color x:FactoryMethod="FromHsla" x:Key="azulactrans">
                 <x:Arguments>
                     <x:Double>0.528</x:Double>
@@ -32,6 +31,11 @@
                     <x:Double>0.8</x:Double>
                 </x:Arguments>
             </Color>
+
+            <Style TargetType="Label" x:Key="SkipStyle">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
             <Style TargetType="Frame">
                 <Setter Property="HorizontalOptions" Value="Center"/>
                 <Setter Property="VerticalOptions" Value="Start"/>

@@ -9,18 +9,23 @@ using Xamarin.Forms.Xaml;
 
 namespace Docapp
 {
+
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DescDiet : ContentPage
 	{
-		public DescDiet (String des)
+        private View[] _views;
+        public DescDiet ()
 		{
 			InitializeComponent ();
-            lblinfo.Text = des;
-		}
-        public DescDiet()
-        {
-            InitializeComponent();
+            _views = new View[]
+         {
+            new DescD(),
+            new DescD(),
+            new DescD()
+         };
+            Carousel.ItemsSource = _views;
+           
 
         }
-    }
+	}
 }

@@ -265,7 +265,7 @@
                 </StackLayout>
                    
                 <StackLayout VerticalOptions="End" Grid.Row="8" Orientation="Vertical">
-                    <Image HorizontalOptions="CenterAndExpand" Source="contacto2" Aspect="AspectFit"   />
+                    <Image HorizontalOptions="Fill" Source="contacto2" Aspect="AspectFit"   />
                 </StackLayout>
                 
             </Grid>

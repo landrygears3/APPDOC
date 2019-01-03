@@ -107,6 +107,10 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Docapp.Android.dll" comes first in this list. */
 		"Docapp.Android.dll",
+		"CarouselView.FormsPlugin.Abstractions.dll",
+		"CarouselView.FormsPlugin.Android.dll",
+		"Com.Android.DeskClock.dll",
+		"Com.ViewPagerIndicator.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

@@ -24,27 +24,27 @@ namespace Docapp
 
         private void Btncolacion2_Clicked(object sender, EventArgs e)
         {
-            this.Navigation.PushModalAsync(new DescDiet("Colacion 2"));
+            this.Navigation.PushModalAsync(new DescDiet());
         }
 
         private void Btncolacion1_Clicked(object sender, EventArgs e)
         {
-            this.Navigation.PushModalAsync(new DescDiet("Colacion 1"));
+            this.Navigation.PushModalAsync(new DescDiet());
         }
 
         private void Btncena_Clicked(object sender, EventArgs e)
         {
-            this.Navigation.PushModalAsync(new DescDiet("Cena"));
+            this.Navigation.PushModalAsync(new DescDiet());
         }
 
         private void Btncomida_Clicked(object sender, EventArgs e)
         {
-            this.Navigation.PushModalAsync(new DescDiet("Comida"));
+            this.Navigation.PushModalAsync(new DescDiet());
         }
 
         private void Btndesayuno_Clicked(object sender, EventArgs e)
         {
-            this.Navigation.PushModalAsync(new DescDiet("Desayuno"));
+            this.Navigation.PushModalAsync(new DescDiet());
         }
     }
 }

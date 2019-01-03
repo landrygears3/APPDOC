@@ -13,16 +13,17 @@
 namespace Docapp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Gerard\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\DescDiet.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\DescDiet.xa" +
+        "ml")]
     public partial class DescDiet : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label lblinfo;
+        private global::CarouselView.FormsPlugin.Abstractions.CarouselViewControl Carousel;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DescDiet));
-            lblinfo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblinfo");
+            Carousel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::CarouselView.FormsPlugin.Abstractions.CarouselViewControl>(this, "Carousel");
         }
     }
 }

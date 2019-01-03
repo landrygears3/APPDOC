@@ -2,22 +2,18 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "DevsDNA.GradientBoxView/1.0.1": {
+      "CarouselView.FormsPlugin/5.2.0": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.4.0.280"
+          "Xamarin.Forms": "2.5.0.121934"
         },
-        "frameworkAssemblies": [
-          "System",
-          "System.Core",
-          "System.Xml",
-          "Xamarin.iOS"
-        ],
         "compile": {
-          "lib/xamarinios10/DevsDNA.GradientBoxView.dll": {}
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         },
         "runtime": {
-          "lib/xamarinios10/DevsDNA.GradientBoxView.dll": {}
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         }
       },
       "Xamarin.Forms/4.0.0.8055-pre1": {
@@ -144,18 +140,6 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
-        }
-      },
-      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.3.0.42-pre3"
-        },
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
         }
       },
       "Xamarin.iOS.MaterialComponents/60.1.0": {
@@ -169,22 +153,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "DevsDNA.GradientBoxView/1.0.1": {
+      "CarouselView.FormsPlugin/5.2.0": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.4.0.280"
+          "Xamarin.Forms": "2.5.0.121934"
         },
-        "frameworkAssemblies": [
-          "System",
-          "System.Core",
-          "System.Xml",
-          "Xamarin.iOS"
-        ],
         "compile": {
-          "lib/xamarinios10/DevsDNA.GradientBoxView.dll": {}
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         },
         "runtime": {
-          "lib/xamarinios10/DevsDNA.GradientBoxView.dll": {}
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         }
       },
       "Xamarin.Forms/4.0.0.8055-pre1": {
@@ -311,18 +291,6 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
-        }
-      },
-      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.3.0.42-pre3"
-        },
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
         }
       },
       "Xamarin.iOS.MaterialComponents/60.1.0": {
@@ -336,22 +304,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "DevsDNA.GradientBoxView/1.0.1": {
+      "CarouselView.FormsPlugin/5.2.0": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.4.0.280"
+          "Xamarin.Forms": "2.5.0.121934"
         },
-        "frameworkAssemblies": [
-          "System",
-          "System.Core",
-          "System.Xml",
-          "Xamarin.iOS"
-        ],
         "compile": {
-          "lib/xamarinios10/DevsDNA.GradientBoxView.dll": {}
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         },
         "runtime": {
-          "lib/xamarinios10/DevsDNA.GradientBoxView.dll": {}
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         }
       },
       "Xamarin.Forms/4.0.0.8055-pre1": {
@@ -478,18 +442,6 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
-        }
-      },
-      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.3.0.42-pre3"
-        },
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
         }
       },
       "Xamarin.iOS.MaterialComponents/60.1.0": {
@@ -503,22 +455,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "DevsDNA.GradientBoxView/1.0.1": {
+      "CarouselView.FormsPlugin/5.2.0": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.4.0.280"
+          "Xamarin.Forms": "2.5.0.121934"
         },
-        "frameworkAssemblies": [
-          "System",
-          "System.Core",
-          "System.Xml",
-          "Xamarin.iOS"
-        ],
         "compile": {
-          "lib/xamarinios10/DevsDNA.GradientBoxView.dll": {}
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         },
         "runtime": {
-          "lib/xamarinios10/DevsDNA.GradientBoxView.dll": {}
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         }
       },
       "Xamarin.Forms/4.0.0.8055-pre1": {
@@ -645,18 +593,6 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
-        }
-      },
-      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.3.0.42-pre3"
-        },
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
         }
       },
       "Xamarin.iOS.MaterialComponents/60.1.0": {
@@ -671,17 +607,26 @@
     }
   },
   "libraries": {
-    "DevsDNA.GradientBoxView/1.0.1": {
-      "sha512": "9bbJcdHOILqx0oGXhD7/5Slwq+m3vGVr+ltcXX/O+l8sBEVNAtjaD+vJl30wB1MPq9RWDPUagsPJC/znEW9UWw==",
+    "CarouselView.FormsPlugin/5.2.0": {
+      "sha512": "rN9CRpr/xkp0F+1oBdqtPwu7g2D6MZXl7gSuUoxGWIjCQKaiCh0cqY2WbRY2UbkpliPiNpopjQ+Ptj0XoplTJw==",
       "type": "package",
-      "path": "devsdna.gradientboxview/1.0.1",
+      "path": "carouselview.formsplugin/5.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
-        "devsdna.gradientboxview.1.0.1.nupkg.sha512",
-        "devsdna.gradientboxview.nuspec",
-        "lib/monoandroid71/DevsDNA.GradientBoxView.dll",
-        "lib/portable45-net45+win8+wpa81/DevsDNA.GradientBoxView.dll",
-        "lib/xamarinios10/DevsDNA.GradientBoxView.dll"
+        "carouselview.formsplugin.5.2.0.nupkg.sha512",
+        "carouselview.formsplugin.nuspec",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.pri",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml",
+        "lib/UAP10/FlipViewControl.xbf",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
+        "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll"
       ]
     },
     "Xamarin.Forms/4.0.0.8055-pre1": {
@@ -846,23 +791,6 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.CarouselView/2.3.0-pre2": {
-      "sha512": "1QJzPUm9dLBu+i3NGHPZmk7w58kCb74i8QbtrDLbPZesqVjAaEnRrGjKTvZlxJCEKWPKgqZMb0af30+Al82KEQ==",
-      "type": "package",
-      "path": "xamarin.forms.carouselview/2.3.0-pre2",
-      "files": [
-        ".signature.p7s",
-        "lib/MonoAndroid10/Xamarin.Forms.CarouselView.dll",
-        "lib/MonoTouch10/Xamarin.Forms.CarouselView.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
-        "lib/uap10.0/Xamarin.Forms.CarouselView.dll",
-        "lib/win81/Xamarin.Forms.CarouselView.dll",
-        "lib/wpa81/Xamarin.Forms.CarouselView.dll",
-        "xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512",
-        "xamarin.forms.carouselview.nuspec"
-      ]
-    },
     "Xamarin.iOS.MaterialComponents/60.1.0": {
       "sha512": "9DWXqdpC7PrkiYoo2d4I6erFpzI1Xjfv/D9CUv/RaqJb8xEu5o/XFbIFrf7jYZVWpL8O0yQgRsIe8t8GC+umEQ==",
       "type": "package",
@@ -878,9 +806,8 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "DevsDNA.GradientBoxView >= 1.0.1",
-      "Xamarin.Forms >= 4.0.0.8055-pre1",
-      "Xamarin.Forms.CarouselView >= 2.3.0-pre2"
+      "CarouselView.FormsPlugin >= 5.2.0",
+      "Xamarin.Forms >= 4.0.0.8055-pre1"
     ]
   },
   "packageFolders": {
@@ -889,11 +816,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
       "projectName": "Docapp.iOS",
-      "projectPath": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
+      "projectPath": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
       "packagesPath": "C:\\Users\\landr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -916,17 +843,13 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
-          "DevsDNA.GradientBoxView": {
+          "CarouselView.FormsPlugin": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[5.2.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.0.0.8055-pre1, )"
-          },
-          "Xamarin.Forms.CarouselView": {
-            "target": "Package",
-            "version": "[2.3.0-pre2, )"
           }
         }
       }

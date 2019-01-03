@@ -20,14 +20,18 @@
       <DependentUpon>Citas.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MainListView.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Product.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Conjunto.xaml.cs">
-      <DependentUpon>Conjunto.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)DescD.xaml.cs">
+      <DependentUpon>DescD.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)DescDiet.xaml.cs">
       <DependentUpon>DescDiet.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Product.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Conjunto.xaml.cs">
+      <DependentUpon>Conjunto.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Dietas.xaml.cs">
@@ -79,7 +83,13 @@
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)DescDiet.xaml">
       <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)DescD.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
 </Project>
