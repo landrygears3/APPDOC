@@ -163,6 +163,8 @@ C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\re
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\R.cs.flag
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\R.txt
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\uploadflags.txt
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\Docapp.Android.csprojAssemblyReference.cache
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\DescD.xaml.g.cs
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Debug\Docapp.Android.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Debug\Mono.Android.pdb

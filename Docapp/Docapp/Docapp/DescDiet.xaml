@@ -24,16 +24,7 @@
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 ItemsSource="{Binding ventanas}"/>
-            <Grid
-                Grid.Row="1"
-                Padding="12"
-                VerticalOptions="EndAndExpand"
-                HorizontalOptions="EndAndExpand"
-                AutomationId="skip">
-                <Label
-                    Text="SKIP"
-                    Style="{StaticResource SkipStyle}" />
-            </Grid>
+            
         </Grid>
     </ContentPage.Content>
 </ContentPage>

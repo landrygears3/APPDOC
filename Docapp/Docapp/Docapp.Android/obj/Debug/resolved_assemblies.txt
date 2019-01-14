@@ -1,4 +1,8 @@
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Docapp.Android.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\CarouselView.FormsPlugin.Abstractions.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\CarouselView.FormsPlugin.Android.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Com.Android.DeskClock.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Com.ViewPagerIndicator.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\FormsViewGroup.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Mono.Android.dll
@@ -26,7 +30,6 @@ C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\an
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.Palette.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Forms.CarouselView.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll

@@ -6,57 +6,30 @@
              BackgroundImage="imgcitas">
     
     <ContentPage.Content>
-        <ScrollView>
-            <Grid x:Name="LayoutRoot">
-
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-
-                <StackLayout Margin="0,30,0,0" Grid.Row="1">
-                    <Label TextColor="Black" FontAttributes="Bold,Italic" FontSize="20" Text="Solicitar Cita"/>
-                    <Frame CornerRadius="20"   HeightRequest="150" WidthRequest="300"  BackgroundColor="{StaticResource azulactrans}">
-                        <Label Text="No hay recomendaciones" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White"/>
-                    </Frame>
-                </StackLayout>
-
-                <StackLayout Margin="0,30,0,0" Grid.Row="2">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent">
-                        <Button x:Name="btndesayuno"  Text="Desayuno" TextColor="White" BackgroundColor="{StaticResource azulactrans}"/>
-                    </Frame>
-                </StackLayout>
-
-                <StackLayout Margin="0,30,0,0" Grid.Row="3">
-                    <Frame CornerRadius="20"   HeightRequest="40" WidthRequest="250" BackgroundColor="Transparent" >
-                        <Button Opacity="80" x:Name="btncolacion1" BackgroundColor="{StaticResource azulactrans}" Text="Colación"/>
-                    </Frame>
-                </StackLayout>
-
-                <StackLayout Margin="0,30,0,0" Grid.Row="4">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent" >
-                        <Button Opacity="80"  x:Name="btncomida" BackgroundColor="{StaticResource azulactrans}" Text="Comida"/>
-                    </Frame>
-                </StackLayout>
-
-                <StackLayout Margin="0,30,0,0" Grid.Row="5">
-                    <Frame CornerRadius="20"   HeightRequest="40" WidthRequest="250" BackgroundColor="Transparent" >
-                        <Button  Opacity="80" x:Name="btncolacion2" BackgroundColor="{StaticResource azulactrans}" Text="Colación"/>
-                    </Frame>
-                </StackLayout>
-                <StackLayout Margin="0,30,0,0" Grid.Row="6">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent" >
-                        <Button Opacity="80" x:Name="btncena" BackgroundColor="{StaticResource azulactrans}" Text="Cena"/>
-                    </Frame>
-                </StackLayout>
-
-            </Grid>
-        </ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+       
+        <StackLayout Grid.Row="0" Margin="10">
+                <Frame CornerRadius="20"   BackgroundColor="{StaticResource azulactrans}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Margin="10" Grid.Row="0" Style="{StaticResource Lblenc}" TextColor="White" Text="Selecciona la fecha para tu cita" />
+                        <Frame  Margin="10,0,10,10"  Grid.Row="1" HorizontalOptions="Fill" CornerRadius="30">   
+                     <Entry BackgroundColor="Gray" IsEnabled="False"/>
+                        </Frame>
+                        <DatePicker Grid.Row="2"/>
+                    </Grid>
+            </Frame>
+        </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -18,6 +18,7 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
                 <StackLayout Grid.Row="0">
@@ -137,6 +138,19 @@
                     </Grid>
                 </StackLayout>
                 <StackLayout Grid.Row="4" Margin="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Style="{StaticResource Lblenc}" BackgroundColor="#fbc04a" TextColor="White" Text="Bajo"/>
+                        <Label Grid.Column="1" Style="{StaticResource Lblenc}" BackgroundColor="Green" TextColor="White" Text="Normal"/>
+                        <Label Grid.Column="2" Style="{StaticResource Lblenc}" BackgroundColor="Red" TextColor="White" Text="Alto"/>
+                    </Grid>
+                </StackLayout>
+                
+                <StackLayout Grid.Row="5" Margin="10">
                    
                     <StackLayout BackgroundColor="Black">
                         <Label Margin="0,5,0,0" HorizontalOptions="Fill" HorizontalTextAlignment="Center" TextColor="White" Style="{StaticResource Lblenc}" Grid.Column="0" Grid.Row="0" Text="Análisis de composición corporal"/>
@@ -145,7 +159,6 @@
                                 <RowDefinition Height="15"/>
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="2*"/>
@@ -153,24 +166,19 @@
                                 <ColumnDefinition Width="1*"/>
                                 <ColumnDefinition Width="3*"/>
                             </Grid.ColumnDefinitions>
-                            <!--Colores-->
-                            <Label Grid.Column="0" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="#1D71B5" HorizontalOptions="Fill" VerticalOptions="Fill"/>
-                            <Label Grid.Column="1" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="#fbc04a" HorizontalOptions="Fill" VerticalOptions="Fill"  Text="Bajo" />
-                            <Label Grid.Column="2" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="Green" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Normal"/>
-                            <Label Grid.Column="3" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="Red" HorizontalOptions="Fill" VerticalOptions="Fill"  Text="Alto" />
                             <!--Nombres-->
-                            <Label Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Peso"/>
-                            <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Masa musculo esquelético"/>
-                            <Label Grid.Column="0" Grid.Row="3" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Masa grasa corporal"/>
+                            <Label Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Peso"/>
+                            <Label Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Masa musculo esquelético"/>
+                            <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Masa grasa corporal"/>
                             <!--Progress bar-->
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Progress="0.4292"/>
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="#fbc04a" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Progress="0.1970"/>
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Green" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" Progress="0.40"/>
+                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Progress="0.4292"/>
+                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="#fbc04a" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Progress="0.1970"/>
+                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Green" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Progress="0.40"/>
 
                         </Grid>
                     </StackLayout>
                 </StackLayout>
-                <StackLayout Grid.Row="5" Margin="10">
+                <StackLayout Grid.Row="6" Margin="10">
 
                     <StackLayout BackgroundColor="Black">
                         <Label Margin="0,5,0,0" HorizontalOptions="Fill" HorizontalTextAlignment="Center" TextColor="White" Style="{StaticResource Lblenc}" Grid.Column="0" Grid.Row="0" Text="Análisis de composición corporal"/>
@@ -186,17 +194,12 @@
                                 <ColumnDefinition Width="1*"/>
                                 <ColumnDefinition Width="3*"/>
                             </Grid.ColumnDefinitions>
-                            <!--Colores-->
-                            <Label Grid.Column="0" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="#1D71B5" HorizontalOptions="Fill" VerticalOptions="Fill"/>
-                            <Label Grid.Column="1" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="#fbc04a" HorizontalOptions="Fill" VerticalOptions="Fill"  Text="Bajo" />
-                            <Label Grid.Column="2" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="Green" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Normal"/>
-                            <Label Grid.Column="3" Grid.Row="0"  Style="{StaticResource Lbldesc}" TextColor="White" BackgroundColor="Red" HorizontalOptions="Fill" VerticalOptions="Fill"  Text="Alto" />
-                            <!--Nombres-->
-                            <Label Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Indice de masa corporal"/>
-                            <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Porcentaje de Grasa corporal"/>
+                           <!--Nombres-->
+                            <Label Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Indice de masa corporal"/>
+                            <Label Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Porcentaje de Grasa corporal"/>
                             <!--Progress bar-->
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Progress="0.70"/>
-                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Progress="0.55"/>
+                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Progress="0.70"/>
+                            <ProgressBar HorizontalOptions="Fill" VerticalOptions="Fill"  ProgressColor="Red" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Progress="0.55"/>
 
                         </Grid>
                     </StackLayout>
@@ -204,7 +207,7 @@
 
                 
                         
-                    <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="6">
+                    <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="7">
                     <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Analisis de grasa magna segmental"/>
 
                     <Grid>
@@ -234,7 +237,7 @@
                     </Grid>
                 </StackLayout>
 
-                <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="7">
+                <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="8">
                     <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Analisis de grasa segmental"/>
 
                     <Grid>
@@ -264,7 +267,7 @@
                     </Grid>
                 </StackLayout>
                    
-                <StackLayout VerticalOptions="End" Grid.Row="8" Orientation="Vertical">
+                <StackLayout VerticalOptions="End" Grid.Row="9" Orientation="Vertical">
                     <Image HorizontalOptions="Fill" Source="contacto2" Aspect="AspectFit"   />
                 </StackLayout>
                 
