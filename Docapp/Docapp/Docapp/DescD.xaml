@@ -12,12 +12,12 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <StackLayout Grid.Row="0">
-                <Frame CornerRadius="20"   HeightRequest="150" WidthRequest="300"  BackgroundColor="{StaticResource azulactrans}">
+                <Frame CornerRadius="20" HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="{StaticResource azulactrans}">
                     <Label Text="1" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White"/>
                 </Frame>
             </StackLayout>
             <StackLayout Margin="0,30,0,0" Grid.Row="1">
-                <Frame CornerRadius="20"   HeightRequest="250" WidthRequest="300"  BackgroundColor="{StaticResource azulactrans}">
+                <Frame  HorizontalOptions="Fill" VerticalOptions="Fill" CornerRadius="20" BackgroundColor="{StaticResource azulactrans}">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />

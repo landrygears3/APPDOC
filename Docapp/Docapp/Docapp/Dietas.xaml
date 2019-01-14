@@ -20,38 +20,38 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-            <StackLayout Margin="0,30,0,0" Grid.Row="1">
-                <Label TextColor="Black" FontAttributes="Bold,Italic" FontSize="20" Text="Recomendaciones"/>
-                <Frame CornerRadius="20"   HeightRequest="150" WidthRequest="300"  BackgroundColor="{StaticResource azulactrans}">
+            <StackLayout  Margin="0,30,0,0" Grid.Row="1">
+                <Label HorizontalOptions="Center" TextColor="White" FontAttributes="Bold,Italic" FontSize="30" Text="Recomendaciones"/>
+                    <Frame Margin="20" HorizontalOptions="Fill" VerticalOptions="Fill" CornerRadius="20"  HeightRequest="150" WidthRequest="300"  BackgroundColor="{StaticResource azulactrans}">
                     <Label Text="No hay recomendaciones" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White"/>
                 </Frame>
             </StackLayout>
 
             <StackLayout Margin="0,30,0,0" Grid.Row="2">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent">
+                    <Frame Margin="20" HorizontalOptions="Fill" VerticalOptions="Fill" CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent">
                         <Button x:Name="btndesayuno"  Text="Desayuno" TextColor="White" BackgroundColor="{StaticResource azulactrans}"/>
                     </Frame>
             </StackLayout>
 
                 <StackLayout Margin="0,30,0,0" Grid.Row="3">
-                    <Frame CornerRadius="20"   HeightRequest="40" WidthRequest="250" BackgroundColor="Transparent" >
+                    <Frame Margin="20" HorizontalOptions="Fill" VerticalOptions="Fill" CornerRadius="20"   HeightRequest="40" WidthRequest="250" BackgroundColor="Transparent" >
                         <Button Opacity="80" x:Name="btncolacion1" BackgroundColor="{StaticResource azulactrans}" Text="Colación"/>
                     </Frame>
                 </StackLayout>
             
                 <StackLayout Margin="0,30,0,0" Grid.Row="4">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent" >
+                    <Frame Margin="20" HorizontalOptions="Fill" VerticalOptions="Fill" CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent" >
                         <Button Opacity="80"  x:Name="btncomida" BackgroundColor="{StaticResource azulactrans}" Text="Comida"/>
                     </Frame>
                 </StackLayout>
 
                 <StackLayout Margin="0,30,0,0" Grid.Row="5">
-                    <Frame CornerRadius="20"   HeightRequest="40" WidthRequest="250" BackgroundColor="Transparent" >
+                    <Frame Margin="20" HorizontalOptions="Fill" VerticalOptions="Fill" CornerRadius="20"   HeightRequest="40" WidthRequest="250" BackgroundColor="Transparent" >
                         <Button  Opacity="80" x:Name="btncolacion2" BackgroundColor="{StaticResource azulactrans}" Text="Colación"/>
                     </Frame>
                 </StackLayout>
                 <StackLayout Margin="0,30,0,0" Grid.Row="6">
-                    <Frame CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent" >
+                    <Frame Margin="20" HorizontalOptions="Fill" VerticalOptions="Fill" CornerRadius="20"   HeightRequest="80" WidthRequest="250" BackgroundColor="Transparent" >
                         <Button Opacity="80" x:Name="btncena" BackgroundColor="{StaticResource azulactrans}" Text="Cena"/>
                     </Frame>
                 </StackLayout>

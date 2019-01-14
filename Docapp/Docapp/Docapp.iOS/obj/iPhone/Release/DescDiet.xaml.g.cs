@@ -13,7 +13,8 @@
 namespace Docapp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\DescDiet.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\DescDiet.xa" +
+        "ml")]
     public partial class DescDiet : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

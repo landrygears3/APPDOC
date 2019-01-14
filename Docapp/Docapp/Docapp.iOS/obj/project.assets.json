@@ -816,11 +816,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
       "projectName": "Docapp.iOS",
-      "projectPath": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
+      "projectPath": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
       "packagesPath": "C:\\Users\\landr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
