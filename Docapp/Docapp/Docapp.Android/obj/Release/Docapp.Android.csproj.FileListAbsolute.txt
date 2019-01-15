@@ -172,5 +172,6 @@ C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\Docapp.Android.csprojAssemblyReference.cache
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\bin\Release\Docapp.Android.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\linksrc\Docapp.Android.dll.mdb

@@ -13,8 +13,7 @@
 namespace Docapp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\landr\\OneDrive\\Documentos\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\Perfil.xaml" +
-        "")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\Perfil.xaml")]
     public partial class Perfil : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

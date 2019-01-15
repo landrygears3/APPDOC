@@ -5,6 +5,7 @@
              >
     <Application.Resources>
         <ResourceDictionary>
+            
 
 
             <Color x:FactoryMethod="FromHsla" x:Key="azulactrans">
