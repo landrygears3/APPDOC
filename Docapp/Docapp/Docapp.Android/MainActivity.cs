@@ -21,6 +21,7 @@ namespace Docapp.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+            Window.SetStatusBarColor(Android.Graphics.Color.Rgb(0, 106, 140));
         }
     }
 }

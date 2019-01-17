@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +15,13 @@ namespace Docapp
 		public Citas ()
 		{
 			InitializeComponent ();
-		}
-	}
+            bhora.Clicked += Bhora_Clicked;
+
+        }
+
+        private void Bhora_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+    }
 }
