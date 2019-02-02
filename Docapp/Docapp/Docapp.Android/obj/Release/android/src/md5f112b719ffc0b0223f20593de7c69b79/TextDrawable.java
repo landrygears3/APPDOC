@@ -16,6 +16,14 @@ public class TextDrawable
 	}
 
 
+	public TextDrawable ()
+	{
+		super ();
+		if (getClass () == TextDrawable.class)
+			mono.android.TypeManager.Activate ("XamForms.Controls.Droid.TextDrawable, XamForms.Controls.Calendar.Droid", "", this, new java.lang.Object[] {  });
+	}
+
+
 	public TextDrawable (int p0)
 	{
 		super (p0);
