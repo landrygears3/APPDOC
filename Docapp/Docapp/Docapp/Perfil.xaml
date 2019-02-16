@@ -19,9 +19,16 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-
-                <StackLayout Grid.Row="0">
+                <!--Perfil foto-->
+                <StackLayout Margin="10" Grid.Row="0">
+                    <Frame CornerRadius="50"  HorizontalOptions="Center" VerticalOptions="Center">
+                        <ImageButton x:Name="btnconper" HeightRequest="150"  WidthRequest="150" Source="porfex.png"/>
+                    </Frame>
+                </StackLayout>
+                
+                    <StackLayout Grid.Row="1">
                     <Label HorizontalOptions="Start" Margin="10,20,0,0" Style="{StaticResource Lblfront}" Text="Control de peso"/>
                     <Grid>
                         <Grid.RowDefinitions>
@@ -47,7 +54,7 @@
                         <Label Grid.Column="1" Grid.Row="3" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="0"/>
                     </Grid>
                 </StackLayout>
-                <StackLayout Grid.Row="1">
+                <StackLayout Grid.Row="2">
                     <Label HorizontalOptions="Start" Margin="10,0,0,0" Style="{StaticResource Lblfront}" Text="Grupo calórico del ejercicio"/>
                     <Grid>
                         <Grid.RowDefinitions>
@@ -73,7 +80,7 @@
                         <Label Grid.Column="1" Grid.Row="3" HorizontalOptions="End" Margin="0,0,10,0" Style="{StaticResource Lbldesc}" Text="11 (1 - 9)"/>
                     </Grid>
                 </StackLayout>
-                <StackLayout BackgroundColor="Black" Margin="10" Grid.Row="2">
+                <StackLayout BackgroundColor="Black" Margin="10" Grid.Row="3">
                     <Grid BackgroundColor="White" Margin="2">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"/>
@@ -100,7 +107,7 @@
                         <Label HorizontalOptions="Center" VerticalOptions="Center" Style="{StaticResource Lbldesc}" Grid.Column="4" Grid.Row="1" Text="16/10/2018  10:34am"/>
                     </Grid>
                 </StackLayout>
-                <StackLayout BackgroundColor="Black" Margin="10" Grid.Row="3">
+                <StackLayout BackgroundColor="Black" Margin="10" Grid.Row="4">
                     <Label Margin="0,5,0,0" Style="{StaticResource Lblenc}" TextColor="White" Grid.Column="0" Grid.Row="0" Text="Análisis de composición corporal"/>
                     <Grid BackgroundColor="White" Margin="2">
                         <Grid.RowDefinitions>
@@ -137,7 +144,7 @@
 
                     </Grid>
                 </StackLayout>
-                <StackLayout Grid.Row="4" Margin="10">
+                <StackLayout Grid.Row="5" Margin="10">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
@@ -150,7 +157,7 @@
                     </Grid>
                 </StackLayout>
                 
-                <StackLayout Grid.Row="5" Margin="10">
+                <StackLayout Grid.Row="6" Margin="10">
                    
                     <StackLayout BackgroundColor="Black">
                         <Label Margin="0,5,0,0" HorizontalOptions="Fill" HorizontalTextAlignment="Center" TextColor="White" Style="{StaticResource Lblenc}" Grid.Column="0" Grid.Row="0" Text="Análisis de composición corporal"/>
@@ -178,7 +185,7 @@
                         </Grid>
                     </StackLayout>
                 </StackLayout>
-                <StackLayout Grid.Row="6" Margin="10">
+                <StackLayout Grid.Row="7" Margin="10">
 
                     <StackLayout BackgroundColor="Black">
                         <Label Margin="0,5,0,0" HorizontalOptions="Fill" HorizontalTextAlignment="Center" TextColor="White" Style="{StaticResource Lblenc}" Grid.Column="0" Grid.Row="0" Text="Análisis de composición corporal"/>
@@ -207,7 +214,7 @@
 
                 
                         
-                    <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="7">
+                    <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="8">
                     <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Analisis de grasa magna segmental"/>
 
                     <Grid>
@@ -237,7 +244,7 @@
                     </Grid>
                 </StackLayout>
 
-                <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="8">
+                <StackLayout Margin="20" HorizontalOptions="Center" Grid.Row="9">
                     <Label Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" Style="{StaticResource Lblenc}" HorizontalOptions="Fill" VerticalOptions="Fill" Text="Analisis de grasa segmental"/>
 
                     <Grid>
@@ -267,7 +274,7 @@
                     </Grid>
                 </StackLayout>
                    
-                <StackLayout VerticalOptions="End" Grid.Row="9" Orientation="Vertical">
+                <StackLayout VerticalOptions="End" Grid.Row="10" Orientation="Vertical">
                     <Image HorizontalOptions="Fill" Source="contacto2" Aspect="AspectFit"   />
                 </StackLayout>
                 

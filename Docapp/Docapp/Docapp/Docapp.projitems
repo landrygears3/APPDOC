@@ -28,10 +28,11 @@
       <DependentUpon>DescDiet.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MainListView.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)pophoras.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)editperfil.xaml.cs">
+      <DependentUpon>editperfil.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainListView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Product.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Conjunto.xaml.cs">
       <DependentUpon>Conjunto.xaml</DependentUpon>
@@ -96,8 +97,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="$(MSBuildThisFileDirectory)pophoras.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)editperfil.xaml">
+      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

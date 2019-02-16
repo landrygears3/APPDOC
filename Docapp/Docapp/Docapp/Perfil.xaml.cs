@@ -15,6 +15,13 @@ namespace Docapp
 		public Perfil ()
 		{
 			InitializeComponent ();
-		}
-	}
+            btnconper.Clicked += Btnconper_Clicked;
+
+        }
+
+        private void Btnconper_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Pagina en construcción", "Aquí se podrá editar el perfil del usuario", "Entiendo!");
+        }
+    }
 }

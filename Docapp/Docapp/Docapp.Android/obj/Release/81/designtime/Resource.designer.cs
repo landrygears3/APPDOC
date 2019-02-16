@@ -6553,8 +6553,8 @@ namespace Docapp.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010025
-			public const int Down = 2130772005;
+			// aapt resource value: 0x7F010026
+			public const int Down = 2130772006;
 			
 			// aapt resource value: 0x7F010008
 			public const int Fondo = 2130771976;
@@ -7195,8 +7195,8 @@ namespace Docapp.Droid
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
-			// aapt resource value: 0x7F010026
-			public const int Next = 2130772006;
+			// aapt resource value: 0x7F010027
+			public const int Next = 2130772007;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -7237,8 +7237,11 @@ namespace Docapp.Droid
 			// aapt resource value: 0x7F010023
 			public const int pass = 2130772003;
 			
-			// aapt resource value: 0x7F010027
-			public const int Prev = 2130772007;
+			// aapt resource value: 0x7F010024
+			public const int porfex = 2130772004;
+			
+			// aapt resource value: 0x7F010028
+			public const int Prev = 2130772008;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -7246,11 +7249,11 @@ namespace Docapp.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010028
-			public const int Up = 2130772008;
+			// aapt resource value: 0x7F010029
+			public const int Up = 2130772009;
 			
-			// aapt resource value: 0x7F010024
-			public const int usr = 2130772004;
+			// aapt resource value: 0x7F010025
+			public const int usr = 2130772005;
 			
 			static Drawable()
 			{
