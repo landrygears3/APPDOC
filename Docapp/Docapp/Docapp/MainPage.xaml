@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
              xmlns:local="clr-namespace:Docapp"
              x:Class="Docapp.MainPage" 
              BackgroundImage="Fondo">
@@ -11,8 +12,8 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
 
         <ActivityIndicator Grid.RowSpan="3" Color="Red" VerticalOptions="Center" HorizontalOptions="Center"/>
 
@@ -31,15 +32,18 @@
                             <Label VerticalOptions="Start" Text="Ingresa tus datos"/>
                             </Grid>
                             <Grid>
-                            <Image HorizontalOptions="Start" Source="usr" HeightRequest="20" WidthRequest="20"/>
-                            <Entry Placeholder="Usuario"/>
-                        </Grid>
-                        
-                        <Grid>
+                                <Image HorizontalOptions="Start" Source="usr" HeightRequest="20" WidthRequest="20"/>
+                                <Entry x:Name="usr" Placeholder="Usuario"/>
+
+                            </Grid>
+                            <Grid>
                             <Image HorizontalOptions="Start" Source="pass" HeightRequest="20" WidthRequest="20"/>
-                            <Entry Placeholder="Contraseña" IsPassword="True"/>
+                            <Entry x:Name="psw" Placeholder="Contraseña" IsPassword="True"/>
                         </Grid>
-                    </StackLayout>
+                            <Grid>
+                                <controls:CheckBox DefaultText="Recuerdame"  TextColor="Black"/>
+                            </Grid>
+                        </StackLayout>
                     </Frame>
                 </Frame>
             </StackLayout>
@@ -49,8 +53,12 @@
 
             </StackLayout>
 
-            <StackLayout VerticalOptions="End"  Margin="0,30" Grid.Row="4" Orientation="Vertical">
-                <Image HorizontalOptions="Center"  Source="contacto" Aspect="AspectFit"   />
+            
+            <StackLayout Grid.Row="4">
+                <Button  Text="Nuevo usuario" x:Name="bnewus"  TextColor="White" BackgroundColor="Transparent"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="End"  Margin="0,30" Grid.Row="5" Orientation="Vertical">
+                <Image x:Name="newusr" HorizontalOptions="Center"  Source="contacto" Aspect="AspectFit"/>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

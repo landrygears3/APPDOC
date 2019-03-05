@@ -2,7 +2,7 @@ package md51558244f76c53b6aeda52c8a337f2c37;
 
 
 public class CollectionViewRenderer
-	extends md51558244f76c53b6aeda52c8a337f2c37.ItemsViewRenderer
+	extends md51558244f76c53b6aeda52c8a337f2c37.SelectableItemsViewRenderer
 	implements
 		mono.android.IGCUserPeer
 {

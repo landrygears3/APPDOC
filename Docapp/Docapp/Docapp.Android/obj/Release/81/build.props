@@ -20,5 +20,5 @@ AndroidCreatePackagePerAbi=
 OS=Windows_NT
 DesignTimeBuild=
 AndroidIncludeDebugSymbols=False
-AdbTarget=-s ZY223W9P49
+AdbTarget=-s ZY323DWVRX
 AdbOptions=

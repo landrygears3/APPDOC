@@ -3,9 +3,11 @@ C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\CarouselView.FormsPlugin.Android.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\Com.Android.DeskClock.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\Com.ViewPagerIndicator.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\ExifLib.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\FormsViewGroup.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\Java.Interop.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\Mono.Android.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\Mono.Android.Export.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\mscorlib.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\System.Core.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\System.dll
@@ -35,6 +37,13 @@ C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\Xamarin.Forms.Xaml.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XamForms.Controls.Calendar.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XamForms.Controls.Calendar.Droid.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XLabs.Core.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XLabs.Forms.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XLabs.Forms.Droid.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XLabs.IOC.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XLabs.Platform.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XLabs.Platform.Droid.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\XLabs.Serialization.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\System.Net.Http.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Release\81\android\assets\System.ServiceModel.Internals.dll

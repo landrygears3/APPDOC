@@ -24,6 +24,14 @@ public class GestureManager_TapAndPanGestureDetector
 	}
 
 
+	public GestureManager_TapAndPanGestureDetector (android.view.GestureDetector.OnGestureListener p0)
+	{
+		super (p0);
+		if (getClass () == GestureManager_TapAndPanGestureDetector.class)
+			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GestureManager+TapAndPanGestureDetector, Xamarin.Forms.Platform.Android", "Android.Views.GestureDetector+IOnGestureListener, Mono.Android", this, new java.lang.Object[] { p0 });
+	}
+
+
 	public boolean onTouchEvent (android.view.MotionEvent p0)
 	{
 		return n_onTouchEvent (p0);
