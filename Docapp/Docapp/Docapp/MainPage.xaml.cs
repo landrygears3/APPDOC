@@ -13,7 +13,13 @@ namespace Docapp
 		{
 			InitializeComponent();
             btnenter.Clicked += Btnenter_Clicked;
-           
+            bnewus.Clicked += Bnewus_Clicked;
+        }
+
+        private void Bnewus_Clicked(object sender, EventArgs e)
+        {
+            
+            this.Navigation.PushModalAsync(new Nuevacita());
         }
 
         private void Btnenter_Clicked(object sender, EventArgs e)
@@ -27,13 +33,13 @@ namespace Docapp
             try { Boolean dat = dats.div(pusr, ppsw);
                 if (dat)
                 {
-                    DisplayAlert("La División es", "Simón"+dat, "Ay si muy vergas");
-                    this.Navigation.PushModalAsync(new Conjunto());
+                    DisplayAlert("La División es", "Simón", "Ay si muy vergas");
+                    this.Navigation.PushModalAsync(new Conjunto(),false);
                 }
-                else { DisplayAlert("No prro no!!", "Epale no está registrado" + dat, "Perdón apá."); }
+                else { DisplayAlert("No prro no!!", "Epale no está registrado ", "Perdón apá."); }
 
             } catch (Exception  oi) {
-                 DisplayAlert("Uups!","No se pudo iniciar seción por que no estás registrado.","Ah si stoy bien menso.");
+                 DisplayAlert("Uups!","Error. "+oi,"Ah si stoy bien menso.");
             }
            
             

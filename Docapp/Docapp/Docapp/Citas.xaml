@@ -23,8 +23,11 @@
                         </Grid.RowDefinitions>
                         <Label Margin="10" Grid.Row="0" Style="{StaticResource Lblenc}" TextColor="White" Text="Selecciona la fecha para tu cita" />
                         <Frame BackgroundColor="Transparent" Margin="10,0,10,10"  Grid.Row="1" HorizontalOptions="Fill" CornerRadius="30">
-                            <DatePicker Date="{Binding PropertyDate}"  MinimumDate ="{Binding PropertyMinimumDate}" MaximumDate = "{Binding PropertyMaximumDate}" BackgroundColor="Transparent" TextColor="White" FontSize="Medium"  HorizontalOptions="Center"/>
-                        </Frame>
+                            <StackLayout>
+                            <DatePicker x:Name="datef" Date="{Binding HorChan}"  MinimumDate ="{Binding PropertyMinimumDate}" BackgroundColor="Transparent" TextColor="White" FontSize="Medium"  HorizontalOptions="Center"/>
+                                <Label Text="{Binding HorChan}" />
+                            </StackLayout>
+                            </Frame>
                     </Grid>
                 </Frame>
             </StackLayout>
@@ -39,14 +42,14 @@
                         <Label Margin="10" Grid.Row="0" Style="{StaticResource Lblenc}" TextColor="White" Text="Selecciona la hora para tu cita" />
                         <Frame BackgroundColor="Transparent" Margin="10,0,10,10"  Grid.Row="1" HorizontalOptions="Fill" CornerRadius="30">
                             <Grid>
-                                <Picker TextColor="White" ItemsSource="{Binding Horas}"/>
+                                <Picker x:Name="dhoras" TextColor="White" ItemsSource="{Binding Horas}"/>
                             </Grid>
                         </Frame>
                     </Grid>
                 </Frame>
             </StackLayout>
             <StackLayout Grid.Row="2">
-                <Button Margin="60,0" Text="Agendar" BackgroundColor="#15B8D4"></Button>
+                <Button Margin="60,0" x:Name="btnagn" Text="Agendar" BackgroundColor="#15B8D4"></Button>
 
             </StackLayout>
             <StackLayout Margin="20" Grid.Row="3">

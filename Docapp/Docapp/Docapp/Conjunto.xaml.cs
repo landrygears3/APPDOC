@@ -16,5 +16,12 @@ namespace Docapp
         {
             InitializeComponent();
         }
+        protected override bool OnBackButtonPressed()
+        {
+            base.OnBackButtonPressed();
+
+            return false;
+
+}
     }
 }

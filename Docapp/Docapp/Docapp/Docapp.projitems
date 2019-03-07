@@ -33,6 +33,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)HoraMV.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)kevin.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Login.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainListView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Nuevacita.xaml.cs">
@@ -59,6 +60,7 @@
       <DependentUpon>Perfil.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Perfil.xaml">

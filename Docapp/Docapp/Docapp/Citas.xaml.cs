@@ -1,6 +1,4 @@
-﻿using Android.Content;
-using Android.Content.PM;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,20 +13,30 @@ namespace Docapp
     {
         HoraMV HMV;
 
-      
-
         public Citas ()
 		{
 			InitializeComponent ();
             this.BindingContext = HMV = new HoraMV();
             DateTime PropertyMinimumDate = DateTime.Now;
-            DateTime PropertyMaximumDate = DateTime.Now.AddDays(30);
             btnface.Clicked += Btnface_Clicked;
             btninst.Clicked += Btninst_Clicked;
             btntel.Clicked += Btntel_Clicked;
+            btnagn.Clicked += Btnagn_Clicked;
         }
+       
 
-      
+        private void Btnagn_Clicked(object sender, EventArgs e)
+        {
+         
+            DisplayAlert("", datef.Date.ToString("yyyy/MM/dd"),"ok");
+            String [] resp = HMV.div(datef.Date.ToString("yyyy/MM/dd"));
+            String da = "";
+            for (int i = 0; i < resp.Length; i++)
+            {
+                da += resp[i];
+            }
+
+        }
 
         private void Btntel_Clicked(object sender, EventArgs e)
         {

@@ -58,7 +58,7 @@
                 <Button  Text="Nuevo usuario" x:Name="bnewus"  TextColor="White" BackgroundColor="Transparent"/>
             </StackLayout>
             <StackLayout VerticalOptions="End"  Margin="0,30" Grid.Row="5" Orientation="Vertical">
-                <Image x:Name="newusr" HorizontalOptions="Center"  Source="contacto" Aspect="AspectFit"/>
+                <Image HorizontalOptions="Center"  Source="contacto" Aspect="AspectFit"/>
             </StackLayout>
         </Grid>
     </ContentPage.Content>
