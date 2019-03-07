@@ -11,61 +11,55 @@ namespace Docapp
         //  List<string> horas = new List<string> { "Hora" };
         //public List<string> Horas => horas;
 
-        private List<string> horas = new List<string> { "Hora" };
-
-
         kevin kv = new kevin();
-        String dats = "";
-        public String[] div(String fec)
-        {
-            String da = Convert.ToDateTime(selfech).ToString("yyyy/MM/dd");
-            string json = "\"{fecha:'" + da + "'}\"";
-            kv.SetPost(json, "horas");
-            dats = kv.GetPost();
-            String[] aux = dats.Split(',');
-            this.horas.Clear();
-            foreach (string var in aux)
-            {
-                this.horas.Add(var);
-            }
 
+        DateTime PropertyMinimumDate = DateTime.Now;
+        DateTime ProertyMaxDate = new DateTime(2100, 12, 31);
 
-            return aux;
-        }
-
+        private List<string> horas;
         public List<string> Horas
         {
             get
             {
-                
-                String da = Convert.ToDateTime(selfech).Date.ToString("yyyy/MM/dd");
+
+                System.Console.WriteLine("Selfech="+selfech);
+
+                String da = Convert.ToDateTime(selfech, System.Threading.Thread.CurrentThread.CurrentCulture).ToString("yyyy/MM/dd");
+                System.Console.WriteLine("da=" + da);
+                System.Console.WriteLine("ADIOS  popo");
                 string json = "\"{fecha:'" + da + "'}\"";
                 kv.SetPost(json, "horas");
-                dats = kv.GetPost();
-                String[] aux = dats.Split(',');
-                this.horas.Clear(); 
+                String[] aux = kv.GetPost().Trim('"').Split(',');
+                horas = new List<string>();
+                this.horas.Clear();
                 foreach (string var in aux)
                 {
                     this.horas.Add(var);
                 }
+                this.horas.RemoveAt(this.horas.Count - 1);
                 return horas;
             }
+            set { return; }
         }
 
 
-        string selfech;
+        string selfech = DateTime.Now.ToString();
         public string HorChan
         {
-            get { return selfech; }
+            get
+            {
+                return selfech;
+            }
             set
             {
-                if (selfech != value)
-                {
-                    selfech = value;
-                    
-                    OnPropertyChanged();
-                    OnPropertyChanged("Horas");
-                }
+
+                selfech = value;
+                System.Console.WriteLine("1");
+                OnPropertyChanged();
+                System.Console.WriteLine("2");
+                OnPropertyChanged("Horas");
+                System.Console.WriteLine("3");
+
             }
         }
 

@@ -12,12 +12,11 @@ namespace Docapp
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Nuevacita : ContentPage
 	{
-        HoraMV HMV = new HoraMV();
+        HoraMV HMV;
         public Nuevacita ()
 		{
 			InitializeComponent ();
-            this.BindingContext = HMV;
-            DateTime PropertyMinimumDate = DateTime.Now;
+            this.BindingContext = HMV = new HoraMV();
             btnface.Clicked += Btnface_Clicked;
             btninst.Clicked += Btninst_Clicked;
             btntel.Clicked += Btntel_Clicked;
@@ -28,8 +27,8 @@ namespace Docapp
 
         private void Btnagn_Clicked(object sender, EventArgs e)
         {
-            
-            DisplayAlert("Odade pedazo de ", "", "Cy");
+
+            DisplayAlert("Ore wa", "chin chin", "ga daske nandayo?", "Nani!!!");
         }
 
         private void Btntel_Clicked(object sender, EventArgs e)

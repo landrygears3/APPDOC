@@ -2,6 +2,7 @@ CarouselView.FormsPlugin.Abstractions
 CarouselView.FormsPlugin.Android
 Com.Android.DeskClock
 Com.ViewPagerIndicator
+ExifLib
 FormsViewGroup
 System.Runtime
 Xamarin.Android.Arch.Core.Common
@@ -29,5 +30,15 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 XamForms.Controls.Calendar
 XamForms.Controls.Calendar.Droid
+XLabs.Core
+XLabs.Forms
+XLabs.Forms.Droid
+XLabs.IOC
+XLabs.Platform
+XLabs.Platform.Droid
+XLabs.Serialization
 netstandard
 System.Resources.ResourceManager
+System.ComponentModel
+System.Reflection.Extensions
+System.Runtime.Serialization.Json

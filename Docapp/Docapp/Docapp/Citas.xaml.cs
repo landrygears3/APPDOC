@@ -17,25 +17,16 @@ namespace Docapp
 		{
 			InitializeComponent ();
             this.BindingContext = HMV = new HoraMV();
-            DateTime PropertyMinimumDate = DateTime.Now;
             btnface.Clicked += Btnface_Clicked;
             btninst.Clicked += Btninst_Clicked;
             btntel.Clicked += Btntel_Clicked;
             btnagn.Clicked += Btnagn_Clicked;
         }
-       
+
 
         private void Btnagn_Clicked(object sender, EventArgs e)
         {
-         
-            DisplayAlert("", datef.Date.ToString("yyyy/MM/dd"),"ok");
-            String [] resp = HMV.div(datef.Date.ToString("yyyy/MM/dd"));
-            String da = "";
-            for (int i = 0; i < resp.Length; i++)
-            {
-                da += resp[i];
-            }
-
+            DisplayAlert("Ore wa","chin chin","ga daske nandayo?","Nani!!!");
         }
 
         private void Btntel_Clicked(object sender, EventArgs e)

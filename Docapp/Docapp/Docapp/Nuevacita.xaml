@@ -48,7 +48,8 @@
                         </Grid.RowDefinitions>
                         <Label Margin="10" Grid.Row="0" Style="{StaticResource Lblenc}" TextColor="White" Text="Selecciona la fecha para tu cita" />
                         <Frame BackgroundColor="Transparent" Margin="10,0,10,10"  Grid.Row="1" HorizontalOptions="Fill" CornerRadius="30">
-                            <DatePicker Date="{Binding PropertyDate}"  MinimumDate ="{Binding PropertyMinimumDate}" MaximumDate = "{Binding PropertyMaximumDate}" BackgroundColor="Transparent" TextColor="White" FontSize="Medium"  HorizontalOptions="Center"/>
+
+                            <DatePicker x:Name="dcatef" Date="{Binding HorChan}"  MinimumDate ="{Binding PropertyMinimumDate}" MaximumDate="{Binding ProertyMaxDate}"  BackgroundColor="Transparent" TextColor="White" FontSize="Medium"  HorizontalOptions="Center" />
                         </Frame>
                     </Grid>
                 </Frame>
