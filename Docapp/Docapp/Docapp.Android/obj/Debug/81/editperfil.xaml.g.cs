@@ -13,7 +13,7 @@
 namespace Docapp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp\\editperfil.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Develops\\APPDOC\\Docapp\\Docapp\\Docapp\\editperfil.xaml")]
     public partial class editperfil : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

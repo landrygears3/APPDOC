@@ -844,7 +844,7 @@
   },
   "libraries": {
     "CarouselView.FormsPlugin/5.2.0": {
-      "sha512": "rN9CRpr/xkp0F+1oBdqtPwu7g2D6MZXl7gSuUoxGWIjCQKaiCh0cqY2WbRY2UbkpliPiNpopjQ+Ptj0XoplTJw==",
+      "sha512": "h849lqz0wvmpyiXqCrN7EW+cCGqK5chcefCfS55CkoGMMQx238QWNknUTOl/CvIdZ4bgs0Oztb7kamYXDlQ5mQ==",
       "type": "package",
       "path": "carouselview.formsplugin/5.2.0",
       "files": [
@@ -866,7 +866,7 @@
       ]
     },
     "ExifLib.PCL/1.0.2-pre01": {
-      "sha512": "pejXu43ZPpiB810TbAzTWXIGEuCqp2XCw9/cdjCMdSp6KGch0CwFMcrzDHtpkfh/78FdexLQiogIMkWUPKK/9A==",
+      "sha512": "v31z/pzE+sPLSisnTtMhBuxXFF0y4B7tzYsoPwbRuvw1+lC9+5QKP+CHaZpWGoQkniCstwD1JyhhlrwffIqT8Q==",
       "type": "package",
       "path": "exiflib.pcl/1.0.2-pre01",
       "files": [
@@ -878,7 +878,7 @@
       ]
     },
     "Xamarin.Forms/4.0.0.169046-pre5": {
-      "sha512": "oleil1IsezqzEbyGxgevz/cixfoTjXbD/EAN5yix0BmRAJJCaC77r2k7cf6UB9m0En4O4OdlqanP1pP2B0RnNA==",
+      "sha512": "GN47nyQX4kGU5wG9UcPfb6o21koVqcUMS+r170YAVwXtW12oIbhUosVlfUM8pT94MoYur1LMzuBSeG7XOYVB4A==",
       "type": "package",
       "path": "xamarin.forms/4.0.0.169046-pre5",
       "files": [
@@ -1042,7 +1042,7 @@
       ]
     },
     "XLabs.Core/2.3.0-pre05": {
-      "sha512": "mYHAR1jPabOD0cPwXGPj/VA30L0J6pvvf7bClMc/rGqMUMQoJpgTu29hNAorvqu4APWFSHyAUFHRvpxGJQgZpw==",
+      "sha512": "9JHeideqKTMnE3oqbER639B3dzefrLaEe5Fl0SPSXMmRiJSq898srUoC00JNGtRTKSNLI9ZfD42h5QjwFsDfKw==",
       "type": "package",
       "path": "xlabs.core/2.3.0-pre05",
       "files": [
@@ -1055,7 +1055,7 @@
       ]
     },
     "XLabs.Forms/2.3.0-pre05": {
-      "sha512": "/W2vQhvYBlJ8bimYYsz+/59QuZk4mlXrNuvES7E7cOWv8tVcaQbEw3JPYetdLXfc/7j0M6EXwt+Tn2wPdpuxfg==",
+      "sha512": "+hl9ztcC+jtWxEDFmpnrzp3J78IBrxI2WgCAVFHs/ADnc3ABYn8StElXHmJNvW2jN9Dde0EZtqkqsnvnlgKawQ==",
       "type": "package",
       "path": "xlabs.forms/2.3.0-pre05",
       "files": [
@@ -1077,7 +1077,7 @@
       ]
     },
     "XLabs.IoC/2.3.0-pre05": {
-      "sha512": "cKoy6+vBUHAZlTgeOC+eMRtqx0r4366I04QHUlmPDWON/9mLKzK+DTXlXH7DCswPJWqQhnT6HxyHZd4/GxGLnw==",
+      "sha512": "6XqKBkxvU362b+FmnjgoxkcKxCk/MNF5q2ecLsHu/MxFIdrxl8EKYdYOPo+ktyff4W4PGCGwSUJEI7EhJEgMFg==",
       "type": "package",
       "path": "xlabs.ioc/2.3.0-pre05",
       "files": [
@@ -1090,7 +1090,7 @@
       ]
     },
     "XLabs.Platform/2.3.0-pre05": {
-      "sha512": "guJ64jcG0Iw/ABvZLMeHWiDTikfTtdHsrpCdjkU1uGjZO9T+4zmZnZyP3cruT/rchPSgdgGcZFAsyvAEY5kxBw==",
+      "sha512": "kdwCt/XfHqC3nJgyToiXHojQ2JMws/L4lCBD1ZCiIJAbSIOa6XrCx68TwIhGyeJkJhuYv8dcbJNmh+QzlHnBww==",
       "type": "package",
       "path": "xlabs.platform/2.3.0-pre05",
       "files": [
@@ -1113,7 +1113,7 @@
       ]
     },
     "XLabs.Serialization/2.3.0-pre05": {
-      "sha512": "tuXlENIhfuqm6h1x8+3S9ku9puLKc5puqRpKI3TAjmHRpVQWWmwjdprFYSNQirYqdkBYfo5zKb30DI7RkQXf1g==",
+      "sha512": "Z6n0TXQsHfYdrQoVXaID6o1Mc7YIl4ALLsyNxmrV38MxeOH+zxQN5LUE/vdrtcm57AspLoM1noB3t5r1yDnaEA==",
       "type": "package",
       "path": "xlabs.serialization/2.3.0-pre05",
       "files": [
@@ -1134,21 +1134,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\landr\\.nuget\\packages\\": {}
+    "C:\\Users\\carlo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
+      "projectUniqueName": "C:\\Develops\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
       "projectName": "Docapp.iOS",
-      "projectPath": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
-      "packagesPath": "C:\\Users\\landr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\landr\\Documents\\GitHub\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\obj\\",
+      "projectPath": "C:\\Develops\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\Docapp.iOS.csproj",
+      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+      "outputPath": "C:\\Develops\\APPDOC\\Docapp\\Docapp\\Docapp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\landr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
