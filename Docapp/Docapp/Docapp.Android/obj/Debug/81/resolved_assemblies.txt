@@ -9,6 +9,8 @@ C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81\android\assets\Mono.Android.Export.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81\android\assets\Plugin.Toast.Abstractions.dll
+C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81\android\assets\Plugin.Toast.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\landr\Documents\GitHub\APPDOC\Docapp\Docapp\Docapp.Android\obj\Debug\81\android\assets\System.Xml.dll

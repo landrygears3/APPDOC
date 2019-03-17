@@ -25,21 +25,21 @@ namespace Docapp
         private void Btnenter_Clicked(object sender, EventArgs e)
         {
 
-           // this.Navigation.PushModalAsync(new Conjunto());
+          
 
          Login dats = new Login();
             var pusr = usr.Text;
             var ppsw = psw.Text;
-            try { Boolean dat = dats.div(pusr, ppsw);
-                if (dat)
+            try { dats.div(pusr, ppsw);
+                DisplayAlert("Sos",credenciales.Cred,"Okay");
+                if (!(string.IsNullOrEmpty(credenciales.Cred)))
                 {
-                    DisplayAlert("La División es", "Simón", "Ay si muy vergas");
                     this.Navigation.PushModalAsync(new Conjunto(),false);
                 }
                 else { DisplayAlert("No prro no!!", "Epale no está registrado ", "Perdón apá."); }
 
             } catch (Exception  oi) {
-                 DisplayAlert("Uups!","Error. "+oi,"Ah si stoy bien menso.");
+                 DisplayAlert("Uups!","Error. No hay conexión \n"+oi,"Ah si stoy bien menso.");
             }
            
             

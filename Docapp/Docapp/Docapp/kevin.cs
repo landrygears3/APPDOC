@@ -11,7 +11,7 @@ namespace Docapp
         String dat="";
         public void SetPost(String json, String url)
         {
-            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://192.168.0.101:49346/" + url);
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://192.168.15.29:49346/" + url);
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
@@ -36,7 +36,7 @@ namespace Docapp
         }
 
         public String GetPost() {
-            return dat;
+            return dat.Trim('"');
         }
     }
 }

@@ -19,5 +19,10 @@ AndroidUseLatestPlatformSdk=False
 TargetFrameworkVersion=v8.1
 AndroidCreatePackagePerAbi=
 OS=Windows_NT
-DesignTimeBuild=true
+DesignTimeBuild=
 AndroidIncludeDebugSymbols=True
+<<<<<<< HEAD
+AdbTarget=-s ZY323DWVRX
+AdbOptions=
+=======
+>>>>>>> 2f511d5a0a5ec291b5ffe5731781c5cae60fb28f

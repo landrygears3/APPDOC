@@ -20,6 +20,7 @@
       <DependentUpon>Citas.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)credenciales.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DescD.xaml.cs">
       <DependentUpon>DescD.xaml</DependentUpon>
       <SubType>Code</SubType>

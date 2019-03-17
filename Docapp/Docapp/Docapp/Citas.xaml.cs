@@ -38,7 +38,11 @@ namespace Docapp
         {
             DisplayAlert("Atenciòn!!!", "Instagram no disponible. Marcanos o accede a faceboock.", "Entiendo!");
         }
+        private void onSelDate(object sender, EventArgs e)
+        {
+            HMV.HorChan(dateSel.Date);
 
+        }
         private void Btnface_Clicked(object sender, EventArgs e)
         {
                 Device.OpenUri(new Uri("fb://drfelipeledezma/2018410341720091"));

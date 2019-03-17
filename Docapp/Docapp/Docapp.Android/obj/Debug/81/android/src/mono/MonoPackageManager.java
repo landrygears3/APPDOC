@@ -113,6 +113,8 @@ class MonoPackageManager_Resources {
 		"Com.ViewPagerIndicator.dll",
 		"ExifLib.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Toast.Abstractions.dll",
+		"Plugin.Toast.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

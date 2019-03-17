@@ -24,10 +24,8 @@
                         </Grid.RowDefinitions>
                         <Label Margin="10" Grid.Row="0" Style="{StaticResource Lblenc}" TextColor="White" Text="Selecciona la fecha para tu cita" />
                         <Frame BackgroundColor="Transparent" Margin="10,0,10,10"  Grid.Row="1" HorizontalOptions="Fill" CornerRadius="30">
-                           
-                            <DatePicker x:Name="datef" Date="{Binding HorChan}"  MinimumDate ="{Binding PropertyMinimumDate}" MaximumDate="{Binding ProertyMaxDate}" BackgroundColor="Transparent" TextColor="White" FontSize="Medium"  HorizontalOptions="Center" Format="dd/MM/yyyy"/>
-                           
-                            </Frame>
+                          <DatePicker DateSelected="onSelDate" x:Name="dateSel" BackgroundColor="Transparent" TextColor="White" FontSize="Medium"  HorizontalOptions="Center" />
+                        </Frame>
                     </Grid>
                 </Frame>
             </StackLayout>
@@ -60,9 +58,9 @@
                         <ColumnDefinition Width="3*"/>
                         <ColumnDefinition Width="3*"/>
                     </Grid.ColumnDefinitions>
-                    <ImageButton HorizontalOptions="End"  x:Name="btnface"  Margin="5" BackgroundColor="Transparent" Grid.Column="0" Source="logoF"  />
-                    <ImageButton HorizontalOptions="Start" x:Name="btninst" Margin="5" BackgroundColor="Transparent" Grid.Column="1"  Source="logoI"  />
-                    <ImageButton HorizontalOptions="Start" x:Name="btntel" Margin="5" BackgroundColor="Transparent" Grid.Column="2"  Source="phoneI"  />
+                    <ImageButton HorizontalOptions="Center" x:Name="btnface" Margin="5" BackgroundColor="Transparent" Grid.Column="0" Source="logoF"  HeightRequest="50" WidthRequest="50" />
+                    <ImageButton HorizontalOptions="Center" x:Name="btninst" Margin="5" BackgroundColor="Transparent" Grid.Column="1" Source="logoI"  HeightRequest="50" WidthRequest="50"/>
+                    <ImageButton HorizontalOptions="Center" x:Name="btntel"  Margin="5" BackgroundColor="Transparent" Grid.Column="2" Source="phoneI" HeightRequest="50" WidthRequest="50"/>
                 </Grid>
             </StackLayout>
         </Grid>

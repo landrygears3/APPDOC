@@ -12,9 +12,7 @@ namespace Docapp
         //public List<string> Horas => horas;
 
         kevin kv = new kevin();
-
-        DateTime PropertyMinimumDate = DateTime.Now;
-        DateTime ProertyMaxDate = new DateTime(2100, 12, 31);
+       
 
         private List<string> horas;
         public List<string> Horas
@@ -22,14 +20,15 @@ namespace Docapp
             get
             {
 
-                System.Console.WriteLine("Selfech="+selfech);
+                String dia = selfech.Day.ToString();
+                String mes = selfech.Month.ToString();
+                String año = selfech.Year.ToString();
 
-                String da = Convert.ToDateTime(selfech, System.Threading.Thread.CurrentThread.CurrentCulture).ToString("yyyy/MM/dd");
-                System.Console.WriteLine("da=" + da);
-                System.Console.WriteLine("ADIOS  popo");
-                string json = "\"{fecha:'" + da + "'}\"";
+                String da = año + "/" + mes + "/" + dia;
+
+                string json = "\"{fecha:'" + da + "',token:'" + credenciales.Cred + "'}\"";
                 kv.SetPost(json, "horas");
-                String[] aux = kv.GetPost().Trim('"').Split(',');
+                String[] aux = kv.GetPost().Split(',');
                 horas = new List<string>();
                 this.horas.Clear();
                 foreach (string var in aux)
@@ -43,24 +42,36 @@ namespace Docapp
         }
 
 
-        string selfech = DateTime.Now.ToString();
-        public string HorChan
+        DateTime selfech = DateTime.Now;
+        public void HorChan(DateTime dat) {
+            selfech = dat;
+                    OnPropertyChanged();
+                    OnPropertyChanged("Horas");
+
+        }
+        public String agendaA(String nombre, String telefono, String correo, int hora)
         {
-            get
-            {
-                return selfech;
-            }
-            set
-            {
+            String dia = selfech.Day.ToString();
+            String mes = selfech.Month.ToString();
+            String año = selfech.Year.ToString();
 
-                selfech = value;
-                System.Console.WriteLine("1");
-                OnPropertyChanged();
-                System.Console.WriteLine("2");
-                OnPropertyChanged("Horas");
-                System.Console.WriteLine("3");
+            String da = año + "/" + mes + "/" + dia;
 
+            string json = "\"{nom:'" + nombre + "',tel:'" + telefono + "',cor:'" + correo + "',fec:'" + da + "',hor:'" + this.horas[hora] + "'}\"";
+            kv.SetPost(json, "Anonima");
+            String aux = kv.GetPost();
+
+            return aux;
+        }
+
+        
+        public Boolean fechVal()
+        {
+            if (selfech > DateTime.Now)
+            {
+                return false;
             }
+            else { return true; }
         }
 
     }

@@ -4,6 +4,8 @@ Com.Android.DeskClock
 Com.ViewPagerIndicator
 ExifLib
 FormsViewGroup
+Plugin.Toast.Abstractions
+Plugin.Toast
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common

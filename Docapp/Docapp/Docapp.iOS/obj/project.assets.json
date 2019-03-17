@@ -25,6 +25,17 @@
           "lib/netstandard1.0/ExifLib.dll": {}
         }
       },
+      "Plugin.Toast/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Toast.dll": {}
+        }
+      },
       "Xamarin.Forms/4.0.0.169046-pre5": {
         "type": "package",
         "compile": {
@@ -233,6 +244,17 @@
         },
         "runtime": {
           "lib/netstandard1.0/ExifLib.dll": {}
+        }
+      },
+      "Plugin.Toast/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Toast.dll": {}
         }
       },
       "Xamarin.Forms/4.0.0.169046-pre5": {
@@ -445,6 +467,17 @@
           "lib/netstandard1.0/ExifLib.dll": {}
         }
       },
+      "Plugin.Toast/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Toast.dll": {}
+        }
+      },
       "Xamarin.Forms/4.0.0.169046-pre5": {
         "type": "package",
         "compile": {
@@ -653,6 +686,17 @@
         },
         "runtime": {
           "lib/netstandard1.0/ExifLib.dll": {}
+        }
+      },
+      "Plugin.Toast/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Toast.dll": {}
         }
       },
       "Xamarin.Forms/4.0.0.169046-pre5": {
@@ -875,6 +919,39 @@
         "exiflib.pcl.1.0.2-pre01.nupkg.sha512",
         "exiflib.pcl.nuspec",
         "lib/netstandard1.0/ExifLib.dll"
+      ]
+    },
+    "Plugin.Toast/2.1.1": {
+      "sha512": "+1yAOYcZ71Mi7XFVybVbg1vtjLP3R62V+1bowT2WRLP7c9jvtzrHwTqUJNJTKlW1KLnBEdjfDqvpiMSUlExCHw==",
+      "type": "package",
+      "path": "plugin.toast/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/Plugin.Toast.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Toast.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Toast.dll",
+        "lib/MonoAndroid10/Plugin.Toast.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Toast.pdb",
+        "lib/MonoAndroid10/Plugin.Toast.xml",
+        "lib/UAP10/Plugin.Toast.Abstractions.dll",
+        "lib/UAP10/Plugin.Toast.Abstractions.pdb",
+        "lib/UAP10/Plugin.Toast.dll",
+        "lib/UAP10/Plugin.Toast.pdb",
+        "lib/UAP10/Plugin.Toast.pri",
+        "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Toast.dll",
+        "lib/Xamarin.iOS10/Plugin.Toast.pdb",
+        "lib/Xamarin.iOS10/Plugin.Toast.xml",
+        "lib/netstandard/Plugin.Toast.Abstractions.dll",
+        "lib/netstandard/Plugin.Toast.Abstractions.pdb",
+        "lib/netstandard/Plugin.Toast.deps.json",
+        "lib/netstandard/Plugin.Toast.dll",
+        "lib/netstandard/Plugin.Toast.pdb",
+        "plugin.toast.2.1.1.nupkg.sha512",
+        "plugin.toast.nuspec"
       ]
     },
     "Xamarin.Forms/4.0.0.169046-pre5": {
@@ -1129,6 +1206,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "CarouselView.FormsPlugin >= 5.2.0",
+      "Plugin.Toast >= 2.1.1",
       "XLabs.Forms >= 2.3.0-pre05",
       "Xamarin.Forms >= 4.0.0.169046-pre5"
     ]
@@ -1174,6 +1252,10 @@
           "CarouselView.FormsPlugin": {
             "target": "Package",
             "version": "[5.2.0, )"
+          },
+          "Plugin.Toast": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "XLabs.Forms": {
             "target": "Package",
